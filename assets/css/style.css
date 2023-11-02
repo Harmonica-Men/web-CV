@@ -1,0 +1,677 @@
+:root {
+  --main-bg-color:  #C2D9FF;
+  --main-text-color: #190482; 
+  --secondary-text-color:  #7752FE; 
+  --accent-color: #8E8FFA; 
+  --border-color: black; 
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: var(--main-text-color);
+  
+  
+}
+
+h1 {
+  color: var(--main-text-color);
+  font-size: 5.625rem;
+  margin: 0px;
+  /*
+  margin: 50px auto 0 auto;
+  */
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: var(--accent-color);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--secondary-text-color);
+  /* font-size: x-large; */
+}
+
+hr {
+  margin: 10px auto;
+  border-color: var(--main-text-color);
+  border-style: dotted;
+  border-width: 6px;
+  border-bottom: none;
+  width: 45%; 
+}
+
+/* Reset default list styles and remove text decoration from links */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Use flexbox to align list items horizontally */
+  justify-content: space-around; /* Center the list horizontally within its container */
+
+}
+
+
+ol {
+  text-align: left;
+}
+
+li {
+  text-align: center;
+}
+/*
+li::before {
+  content: "*";
+  font-weight: bold;
+}
+*/
+
+/* Style the navigation bar */
+nav {
+   position: relative; 
+   background-color: var(--main-bg-color); /* Background color for the navigation bar */
+ /* text-align: center; */
+  
+}
+
+/* Style links in the navigation bar */
+nav a {
+  color: var(--main-text-color); /* Text color for links in the navigation bar */
+  font-weight: bold;
+}
+
+/* Change link color on hover */
+nav a:hover {
+  color:  var(--secondary-text-color); /* Color for links on hover */
+}
+
+/* <textarea style="resize:none" name="name" cols="num" rows="num"></textarea> */
+@media screen and (max-width: 768px) {
+  nav {
+  
+/*  font-family: 'Merriweather', serif;*/
+   font-size: xx-small;
+ }
+ 
+ /* Style links in the navigation bar */
+ nav a {
+  font-size: xx-small;
+ }
+ 
+ /* Change link color on hover */
+ nav a:hover {
+  font-size: xx-small;
+  }
+}
+
+
+
+.container-lang {
+  width: 45%;
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  background-color: var(--main-bg-color);
+}
+
+
+.top-container {
+ 
+
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center;
+    background-color: var(--main-bg-color);
+    
+  }
+  
+
+
+.middle-container {
+ /* width: 45%; */
+  background-color : var(--main-bg-color);
+  margin: 10px;
+ 
+}
+
+.contact {    
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center;
+    background-color: white;
+  }
+  
+  .contact-box {
+    width: 45%;
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center;
+    background-color: var(--main-bg-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+ 
+
+ 
+
+
+.footer {
+  width: inherit;
+  height: auto;
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  background-color: var(--main-bg-color);
+  padding: 10px;
+}
+
+
+
+
+
+.back-to-top-button {
+  /* background-color: black;*/
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+   /* transition: color 0.3s; /* Add a transition for smooth color change */
+ }
+ 
+ /* Add a hover effect for the "back-to-top-button" */
+ .back-to-top-button:hover {
+   color: red; /* Change text color to red on hover */
+ }
+
+.pro {
+  text-decoration: underline;
+  /* background-color: red; */
+}
+
+.fve-img {
+  
+   width: 25%; 
+}
+
+
+.label {
+  text-align: center;
+  display: block;
+}
+
+.p {
+  line-height: 2;
+}
+
+
+
+.copyright {
+  color: black;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.container-skills {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: black; */
+  height: 600px;
+  row-gap: 25px;
+  column-gap: 25px;
+}
+
+.box-skills {
+  width: 500px; 
+  height: 250px;
+  background-color: var(--main-bg-color);
+  text-align: center;
+  border-radius: 7px;
+  border: solid black;
+  padding: 10px;
+}
+
+
+.tablecontainer {
+  /* width: 500px; */
+  .tablecontainer {
+    width: 500px;
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center;
+    /* background-color: orange; */
+  }
+  
+}
+
+
+.table1 {
+  display: inline-block; /* Display the table as an inline block */
+ /* background-color: peru; */
+}
+
+.table1 th, .table1 td {
+  text-align: center;
+  padding: 12px;  padding: 5px;
+
+  /* Center align the text in table headers and cells */
+  background-color: var(--main-bg-color) 
+}
+
+.back-to-top-button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  /* transition: color 0.3s; /* Add a transition for smooth color change */
+}
+
+/* Add a hover effect for the "back-to-top-button" */
+.back-to-top-button:hover {
+  color: red; /* Change text color to red on hover */
+
+}
+
+/* Socials */
+
+
+.container-socials {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  /* border: solid black; */
+  /* border-radius:  7px; */
+  height: 200px;
+
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+
+.box-socials {
+  width: 100px; 
+  height: 100px;
+  font-size: 3.5rem;
+  text-align: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-color);
+}
+
+
+/* Media query to change the size of Box1 and Box3 when the screen is smaller */
+@media screen and (max-width: 768px) {
+  .container-socials {
+    flex-direction: row;  
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 75px;
+  }
+
+  .box-socials {
+    width: 50px; 
+    height: 50px; 
+    background-color: var(--main-bg-color);
+    text-align: center;
+    border-radius: 7px;
+    /* border: solid black; */
+    padding: 10px;
+    font-size: 1.75rem;
+
+background-color: var(--accent-color);
+  }
+}
+
+/* Socials end */
+
+
+
+
+
+
+
+#rcorners-small {
+  border-radius: 7px; 
+  border-color: black;
+  border: 2px solid black; /* Fix: Added a semicolon at the end of this line */
+  border-style:ridge; /* Fix: Use a colon to set the border style */
+}
+
+
+
+
+#box-skill-1 { 
+  text-align: right; 
+  margin-right: 300px; /* Offset Box1 300px to the left */
+}
+
+#box-skill-2 {
+  margin: 0; /* Reset any margins applied previously */
+}
+
+#box-skill-3 {
+  text-align: left; 
+  
+  margin-left: 300px; /* Offset Box3 300px to the right */
+}
+
+/* Media query to change the size of Box1 and Box3 when the screen is smaller */
+@media screen and (max-width: 768px) {
+  .container-skills {
+      flex-direction: row;  
+      justify-content: space-evenly; 
+      align-items: baseline;
+      height: 380px;
+  }
+
+  .box-skills {
+      /* width: 150px; */
+      height: 380px;
+      background-color: var(--main-bg-color);
+      text-align: center;
+      border-radius: 7px;
+      border: solid black;
+      padding: 10px;
+  }
+
+       #box-skill-1 {
+          text-align: center;
+          margin-right: 0px;
+       }
+
+       #box-skill-2 {
+          text-align: center;
+       }
+
+       #box-skill-3 {
+          text-align: center;
+          margin-left: 0px;
+       }
+}
+
+textarea {
+  resize: none;
+  width: 80%; /* Set the initial width to 100% */
+  height: 5em;
+   /* Add padding as needed */
+}
+
+/* Media query for smaller screens (adjust as needed) */
+@media (max-width: 768px) {
+  textarea {
+    width: 80%; /* Adjust the width for smaller screens */
+    /* Adjust the padding for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: blue;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid violet;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid black;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent black;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: var(--main-bg-color);
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: white;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: var(--accent-color);
+  border: 4px solid black;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid black;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent black;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: var(--main-bg-color);
+  position: relative;
+  border-radius: 6px;
+
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid black;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent black transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
