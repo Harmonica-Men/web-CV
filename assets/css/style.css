@@ -4,7 +4,6 @@
   --secondary-text-color:  #7752FE; 
   --accent-color: #8E8FFA; 
   --border-color: black; 
-
 }
 
 * {
@@ -116,53 +115,61 @@ nav a:hover {
   }
 }
 
+.top-container {
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--main-bg-color);
+  padding: 10px;
+}
 
+.middle-container {
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
 
-.container-lang {
-  width: 45%;
-  margin: 0 auto; /* Center the container horizontally */
+.profile {
+  margin: 0 auto;
   text-align: center;
   background-color: var(--main-bg-color);
 }
 
-
-.top-container {
- 
-
-    margin: 0 auto; /* Center the container horizontally */
-    text-align: center;
-    background-color: var(--main-bg-color);
-    
-  }
-  
-
-
-.middle-container {
- /* width: 45%; */
-  background-color : var(--main-bg-color);
-  margin: 10px;
- 
+.summary {
+  margin: 0 auto;
+  width: 75%;
+  text-align: left;
+  background-color: var(--main-bg-color);
+  padding: 10px;
 }
 
 .contact {    
     margin: 0 auto; /* Center the container horizontally */
     text-align: center;
     background-color: white;
+    
   }
-  
-  .contact-box {
-    width: 45%;
-    margin: 0 auto; /* Center the container horizontally */
-    text-align: center;
-    background-color: var(--main-bg-color);
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
  
 
  
+.container-lang {
+  width: 20%; 
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  background-color: var(--main-bg-color);
+}
 
+
+ 
+.contact-box {
+  width: 30%; 
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  background-color: var(--main-bg-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .footer {
   width: inherit;
@@ -172,10 +179,6 @@ nav a:hover {
   background-color: var(--main-bg-color);
   padding: 10px;
 }
-
-
-
-
 
 .back-to-top-button {
   /* background-color: black;*/
@@ -198,7 +201,7 @@ nav a:hover {
 }
 
 .fve-img {
-  
+    padding: 10px;
    width: 25%; 
 }
 
@@ -220,20 +223,20 @@ nav a:hover {
   padding: 20px 0;
 }
 
-.container-skills {
+.container-strengths {
   display: flex;
   flex-direction: column; 
   align-items: center;
   justify-content: space-evenly;
-  /* background-color: black; */
-  height: 600px;
+  background-color: white; 
+  height: 800px;
   row-gap: 25px;
   column-gap: 25px;
 }
 
-.box-skills {
+.box-strengths {
   width: 500px; 
-  height: 250px;
+  height: 180px;
   background-color: var(--main-bg-color);
   text-align: center;
   border-radius: 7px;
@@ -355,16 +358,16 @@ background-color: var(--accent-color);
 
 
 
-#box-skill-1 { 
+#box-strength-1 { 
   text-align: right; 
   margin-right: 300px; /* Offset Box1 300px to the left */
 }
 
-#box-skill-2 {
+#box-strength-2 {
   margin: 0; /* Reset any margins applied previously */
 }
 
-#box-skill-3 {
+#box-strength-3 {
   text-align: left; 
   
   margin-left: 300px; /* Offset Box3 300px to the right */
@@ -372,14 +375,14 @@ background-color: var(--accent-color);
 
 /* Media query to change the size of Box1 and Box3 when the screen is smaller */
 @media screen and (max-width: 768px) {
-  .container-skills {
+  .container-strengths {
       flex-direction: row;  
       justify-content: space-evenly; 
       align-items: baseline;
       height: 380px;
   }
 
-  .box-skills {
+  .box-strengths {
       /* width: 150px; */
       height: 380px;
       background-color: var(--main-bg-color);
@@ -389,16 +392,16 @@ background-color: var(--accent-color);
       padding: 10px;
   }
 
-       #box-skill-1 {
+       #box-strengths-1 {
           text-align: center;
           margin-right: 0px;
        }
 
-       #box-skill-2 {
+       #box-strengths-2 {
           text-align: center;
        }
 
-       #box-skill-3 {
+       #box-strengths-3 {
           text-align: center;
           margin-left: 0px;
        }
@@ -430,6 +433,7 @@ textarea {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  text-align: left;
 }
 
 /* The actual timeline (the vertical ruler) */
