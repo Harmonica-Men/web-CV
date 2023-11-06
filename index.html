@@ -4,56 +4,50 @@
     <meta charset="utf-8">
     <title>Curriculum Vitae - Filip Van Elslande</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/images/code-solid.ico">
+    <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0-beta2/css/all.min.css">
-
   </head>
 
 <body>
-  
-  <nav> 
-    <ul id="home">
-      <ol><a href="#hello">Hello</a></ol>
-      <ol><a href="#strengths">strengths</a></ol>
-      <ol><a href="#competent">Competenty</a></ol>
-      <ol><a href="#timeline">Work Experience</a></ol>
-      <ol><a href="#languages">Languages</a></ol>
-      <ol><a href="#touch">Keep In Touch</a></ol>
-    </ul>
-  </nav>
 
-  <div class="top-container">
-      <h2>Curriculum Vitae</h2>
+  <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="#">Home</a></li>
+			<li><a class="menu__item" href="#">About</a></li>
+			<li><a class="menu__item" href="#">Team</a></li>
+			<li><a class="menu__item" href="#">Contact</a></li>
+			<li><a class="menu__item" href="#">Twitter</a></li>
+    </ul>
+  </div>
+  
+
+    <div  class="top-container">
     <!--  <img class="top-atsign" src="assets/images/at_sign.png" alt="at-sign-img">
       <img class="bottom-hashtag" src="assets/images/hashtag.png" alt="hashtag-img"> -->
       <h1><em>I 'm Filip.</em></h1>
       <h2>a <span class="pro">pro</span>grammer</h2>
-      <img class="dev-img" src="assets/images/QR-fve.png" alt="dev-img">
-      <h2>Full-Stack Developer</h2>
-      <h3>Personalia</h3>
-        <p>adr: blackrockstr 45, Dublin, Ireland email: fve@vanelslande.com tel: 12345686 </p>
-      
+      <img class="qr-img" src="assets/images/QR-fve.png" alt="qr-img">
     </div>
-   
-    <hr>
-  
-    <div class="middle-container"  id="hello">
-      <div class="profile" id="rcorners-small">
+
+
+    <div id="hello" class="middle-container">
+      <div class="profile">
          <img class="fve-img" src="assets/images/fve.png" alt="Filip Van Elslande">
          <h2>Hello</h2>
-         <p class="intro">"Most good programmers do programming not because they expect
-           to get paid or get adulation by the public,
-           but because it is fun to program." – Linus Torvalds</p>
+         <p class="intro">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
       </div>
     </div>
 
-<hr>
-
-<h2>Summary</h2>
+    
 <div class="summary" id="rcorners-small">
+  <h2>Summary</h2>
   <p>Experienced Full Stack Developer with a strong proficiency
    in C#, SQL, Visual Studio, and other relevant technologies.
     I have over 5 years of experience developing and maintaining 
@@ -67,10 +61,12 @@
        a demanding client, resulting in a long-term partnership and increased revenue. I am enthusiastic about leveraging my strengths and experience to contribute to the success of the team and drive continuous improvement</p>
 </div>
 
+
+
 <h2 id="timeline">Work Experience</h2>
 <div class="timeline" >
-  <div class="container left">
-    <div class="content" id="rcorners-small">
+  <div class="containers left">
+    <div class="content1" id="rcorners-small">
       <h2>2017</h2>
       <p>ABC Company Leeds
         Worked on a core software application, 
@@ -84,7 +80,7 @@
         Successfully completed a security audit for the system, which enhanced its overall security features.</p>
     </div>
   </div>
-  <div class="container right" >
+  <div class="container_T right" >
     <div class="content" id="rcorners-small">
       <h2>2016</h2>
       <p>DEF Company Glasgow
@@ -151,26 +147,34 @@
   <a href="#home">Back to Top</a>
 </div>
 
-    <h2 id="strengths">My strengths</h2>
-      <div class="container-strengths">
-        <div class="box-strengths"  id="box-strength-1">
-          <h3>* Team Collaboration</h3>
-            <p>
-              Team Collaboration
-              Led a cross-functional team of developers, designers, and stakeholders to successfully deliver a complex software project on time and within budget.</p>
 
-      </div>
 
-      <div class="box-strengths"  id="box-strength-2">
-        <h3>* Problem Solving</h3>
-           <p>Solved complex software issues, resulting in a 30% reduction in bug reports and improving the overall stability and performance of the application.</p>
-      </div>
 
-      <div class="box-strengths"  id="box-strength-3">
-          <h3>* Adaptability</h3>
-            <p>Successfully adapted to new technologies and frameworks, quickly learning and implementing best practices to deliver high-quality software solutions.</p>
-      </div>
+
+<h2 id="strengths">My strengths</h2>
+    <div class="container-strengths">
+      <div class="box-strengths"  id="box-strength-1">
+        <h3>* Team Collaboration</h3>
+          <p>
+            Team Collaboration
+            Led a cross-functional team of developers, designers, and stakeholders to successfully deliver a complex software project on time and within budget.</p>
+
     </div>
+
+    <div class="box-strengths"  id="box-strength-2">
+      <h3>* Problem Solving</h3>
+         <p>Solved complex software issues, resulting in a 30% reduction in bug reports and improving the overall stability and performance of the application.</p>
+    </div>
+
+    <div class="box-strengths"  id="box-strength-3">
+        <h3>* Adaptability</h3>
+          <p>Successfully adapted to new technologies and frameworks, quickly learning and implementing best practices to deliver high-quality software solutions.</p>
+    </div>
+  </div>
+  
+  <div class="back-to-top-button">
+      <a href="#home">Back to Top</a>
+  </div>
     
     <div class="back-to-top-button">
         <a href="#home">Back to Top</a>
@@ -178,15 +182,12 @@
 
     <hr>
 
-
-    
-
   </div>
 
-  <div class="tablecontainer">
+  <div class="table-container">
     
     <h2  id="competent">Competencies</h2>
-    <table class="table1"   id="rcorners-small">
+    <table class="table"   id="rcorners-small">
     <tr>
       <th></th>
       <th>No Knowledge</th>
@@ -287,29 +288,14 @@
   <a href="#home">Back to Top</a>
 </div>
 
-<hr>
 
-<!-- Begin Section Languages -->
 
-<h2 id="languages">Languages</h2>
 
-<div class="container-lang" id="rcorners-small">
 
-    <ol>
-      <li>Polish — Fluent</li>
-      <li>Spanish — Proficient</li>
-      <li>Dutch — Proficient</li>
-      <li>Russian — Intermediate</li>
-    </ol>  
-    
-</div>
 
 <hr>
 
-<!-- End Section "Languages" -->
 
-
-<!-- Begin Section "Get In Touch" -->
 
 <h2>Get In Touch</h2>
   <div class="contact"> 
@@ -337,60 +323,40 @@
         </form>
   </div>
 
-</div>
- 
-<hr>
-<!-- End Section "Get In Touch" -->
-
-
-<!-- Back Top Top -->
+    </div>
+    
 <div class="back-to-top-button">
   <a href="#home">Back to Top</a>
 </div>
 
+<hr>
 
-<!-- Begin Section Footer -->
+
 <div class="footer">
   <div class="container-socials">
-  
-    <div class="box-socials">
-      <a class="footer-link" href="https://www.linkedin.com/" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
+
+    <div class="box-socials" id="box-social-1">
+      <i class="fab fa-linkedin"></i>
     </div>
 
-    
-    <div class="box-socials">
-      <a class="footer-link" href="https://twitter.com/" target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </div>
-    
-    
-    <div class="box-socials">
-      <a class="footer-link" href="https://www.instagram.com" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
+    <div class="box-socials" id="box-social-2">
+      <i class="fab fa-twitter"></i>
     </div>
 
-
-
-    <div class="box-socials">
-      <a class="footer-link" href="https://www.facebook.com/" target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a>
-    </div>
-    
-    <div class="box-socials">
-      <a class="footer-link" href="https://www.codeinstitute.net/" target="_blank">
-        <i class="fas fa-globe"></i>
-      </a>
+    <div class="box-socials" id="box-social-3">
+      <i class="fab fa-instagram"></i> 
     </div>
 
+      <!-- New social icons --> 
+    <div class="box-socials" id="box-social-4">
+      <i class="fab fa-facebook"></i>
+    </div>
 
+    <div class="box-socials" id="box-social-5">
+      <i class="fas fa-globe"></i> <!-- You can choose an appropriate icon for the website -->
+    </div>       
 
   </div>
-    <span class="copyright p-color">©</span> 2023 - Filip Van Elslande</div>
+    <span class="copyright">©</span> 2023 - Filip Van Elslande</div>
   </div>
 </html>
-<!-- End Section Footer -->
