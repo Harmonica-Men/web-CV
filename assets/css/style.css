@@ -96,7 +96,7 @@ button:focus {
 
 .middle-container {
   margin: 0 auto;
-  width: 75%;
+  width: 45%;
   text-align: center;
   background-color: var(--main-bg-color);
   padding: 10px;
@@ -105,14 +105,14 @@ button:focus {
 .profile {
   padding: 10px;
   margin: 0 auto;
-  width: 75%;
+  width: 90%;
   text-align: center;
   background-color: var(--main-bg-color);
 }
 
 .summary {
   margin: 0 auto;
-  width: 75%;
+  width: 45%;
   text-align: center;
   background-color: var(--main-bg-color);
   padding: 10px;
