@@ -93,37 +93,15 @@ a:hover {
 
 }
 
-.p-computer {
-  color: #40514E;
-  clear: right;
-}
 
 .pro {
   text-decoration: underline;
   /* background-color: red; */
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom:  300px;
-}
-
-.moutain-img {
-  width: 33%;
-}
-
 .contact-msg {
   margin: 40px auto 60px auto;
 }
-
-
 
 .copyright {
   color: #EAF6F6;
@@ -189,3 +167,7 @@ a:hover {
   background-color : #11999E;
   padding: 10px 0 20px;
 }
+
+
+
+hamburger-menu
