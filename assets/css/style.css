@@ -202,8 +202,8 @@ button:focus {
   flex-direction: column; 
   align-items: center;
   justify-content: space-evenly;
-  background-color: white; 
-  height: 800px;
+  background-color: violet; 
+  height: auto;
   row-gap: 25px;
   column-gap: 25px;
 }
@@ -218,6 +218,21 @@ button:focus {
   padding: 10px;
 }
 
+
+#box-strength-1 { 
+  text-align: right; 
+  margin-right: 300px; /* Offset Box1 300px to the left */
+}
+
+#box-strength-2 {
+  margin: 0; /* Reset any margins applied previously */
+}
+
+#box-strength-3 {
+  text-align: left; 
+  
+  margin-left: 300px; /* Offset Box3 300px to the right */
+}
 
 
 .table {
@@ -423,34 +438,23 @@ textarea {
 
 
 
-/* Media query for smaller screens (adjust as needed) */
-@media (max-width: 768px) {
-  textarea {
-    width: 80%; /* Adjust the width for smaller screens */
-    /* Adjust the padding for smaller screens */
-  }
-}
-
-
 
 
 
 
 .container-WorkExperience
 {
-  
+  position: relative; 
   margin: 0 auto;
-
-  width: 75%;
+  width: 90%;
   text-align: center;
   background-color: var(--main-bg-color);
   padding: 10px;
-
 }
 
 
 
-/* The actual timeline (the vertical ruler) */
+/* The actual timeline (the vertical ruler) 
 .ontainer-WorkExperience::after {
   content: '';
   position: absolute;
@@ -462,10 +466,23 @@ textarea {
   margin-left: -3px;
 }
 
+*/
+
+#position-ABS
+{
+  position: absolute;
+}
+
+
+#position-rel
+{
+  position: relative;
+}
+
 /* Container around content */
 .container {
   padding: 10px 40px;
-  position: relative;
+  /* position: relative; */
   background-color: white;
   width: 50%;
 }
@@ -533,6 +550,18 @@ textarea {
 .content {
   padding: 20px 30px;
   background-color: var(--main-bg-color);
-  position: relative;
+/*  position: relative; */
   border-radius: 6px;
+}
+
+
+
+
+
+/* Media query for smaller screens (adjust as needed) */
+@media (max-width: 768px) {
+  textarea {
+    width: 80%; /* Adjust the width for smaller screens */
+    /* Adjust the padding for smaller screens */
+  }
 }
