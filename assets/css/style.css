@@ -456,7 +456,6 @@ textarea {
 .column-WorkExperience {
   flex: 0 0 50%;
   margin-bottom: 20px;
-  padding: 10px;
   /* border: 1px solid black; */
   box-sizing: border-box;
 }
