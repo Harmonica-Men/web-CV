@@ -98,15 +98,16 @@ button:focus {
   margin: 0 auto;
   width: 75%;
   text-align: center;
-  background-color: turquoise;
+  background-color: var(--main-bg-color);
   padding: 10px;
 }
 
 .profile {
+  padding: 10px;
   margin: 0 auto;
   width: 75%;
   text-align: center;
-  background-color: orchid;
+  background-color: var(--main-bg-color);
 }
 
 .summary {
@@ -173,7 +174,7 @@ button:focus {
 }
 
 .fve-img {
-   width: 25%; 
+   width: 33%; 
 }
 
 .img-qr {
