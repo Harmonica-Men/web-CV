@@ -202,15 +202,15 @@ button:focus {
   flex-direction: column; 
   align-items: center;
   justify-content: space-evenly;
-  background-color: violet; 
+  background-color: white; 
   height: auto;
   row-gap: 25px;
   column-gap: 25px;
 }
 
 .box-strengths {
-  width: 500px; 
-  height: 180px;
+  width: 45%; 
+  height: auto;
   background-color: var(--main-bg-color);
   text-align: center;
   border-radius: 7px;
@@ -443,16 +443,45 @@ textarea {
 
 
 .container-WorkExperience
-{
-  position: relative; 
+{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  /*
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+/*
+    align-items: center; 
+    background-color: var(--secondary-text-color); 
+    width: 80%;
+    height: auto;
+    row-gap: 25px;
+    column-gap: 25px;
+*/
+ /* position: relative; 
   margin: 0 auto;
   width: 90%;
   text-align: center;
   background-color: var(--main-bg-color);
+  padding: 10px; */
+}
+.column-WorkExperience {
+  flex: 0 0 50%;
+  margin-bottom: 20px;
   padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
-
+.box-WorkExperience {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
 
 /* The actual timeline (the vertical ruler) 
 .ontainer-WorkExperience::after {
@@ -467,17 +496,6 @@ textarea {
 }
 
 */
-
-#position-ABS
-{
-  position: absolute;
-}
-
-
-#position-rel
-{
-  position: relative;
-}
 
 /* Container around content */
 .container {
