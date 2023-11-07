@@ -18,7 +18,12 @@ body {
     align-items: center;
     font-family: 'Merriweather', serif;
     color: var(--main-text-color);
+  /*  background-image: url(".bg-img"); */
+  background-image: url("../images/bg.jpg")
+    
 }
+
+
 
 h1 {
   color: var(--main-text-color);
@@ -186,6 +191,10 @@ button:focus {
 
 .qr-img {
   width: 20%;
+}
+
+.bg-img {
+  width: 66%;
 }
 
 .label {
