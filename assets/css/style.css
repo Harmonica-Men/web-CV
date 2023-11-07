@@ -122,10 +122,8 @@ button:focus {
 .contact {    
     margin: 0 auto; /* Center the container horizontally */
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
   }
-
-
 
 .container-lang {
   width: 20%; 
@@ -174,7 +172,7 @@ button:focus {
 }
 
 .fve-img {
-   width: 33%; 
+   width: 65%; 
 }
 
 .qr-img {
@@ -186,16 +184,12 @@ button:focus {
   display: block;
 }
 
-
-
-
-
 .copyright {
   color: black;
   font-size: 1rem;
   padding: 20px 0;
 }
-/* main */
+
 .container-strengths {
   display: flex;
   flex-direction: column; 
@@ -217,7 +211,6 @@ button:focus {
   padding: 10px;
 }
 
-
 #box-strength-1 { 
   text-align: right; 
   margin-right: 300px; /* Offset Box1 300px to the left */
@@ -229,14 +222,11 @@ button:focus {
 
 #box-strength-3 {
   text-align: left; 
-  
   margin-left: 300px; /* Offset Box3 300px to the right */
 }
 
-
 .table {
-  display: inline-block; /* Display the table as an inline block */
- /* background-color: peru; */
+  display: inline-block; 
 }
 
 .table th, .table td {
@@ -598,5 +588,11 @@ textarea {
   #box-strength-3 {
     margin: 0;
     text-align: left;
+  }
+
+
+
+  .contact-box {    
+    width: 90%;
   }
 }
