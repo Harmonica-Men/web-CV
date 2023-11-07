@@ -189,12 +189,25 @@ button:focus {
   padding: 20px 0;
 }
 
+
+
+
+
+
+
+
+
+
 .container-strengths {
+  margin: 0;
+  padding-left: 27%;
+  padding-right: 27%;
   display: flex;
-  flex-direction: column; 
+  flex-direction:column; 
   align-items: center;
-  justify-content: space-evenly;
-  background-color: white; 
+  justify-content: center;
+ /* background-color: violet; */
+  width: auto;
   height: auto;
   row-gap: 25px;
   column-gap: 25px;
@@ -212,7 +225,7 @@ button:focus {
 
 #box-strength-1 { 
   text-align: right; 
-  margin-right: 300px; /* Offset Box1 300px to the left */
+  margin-right: auto; /* Offset Box1 300px to the left */
 }
 
 #box-strength-2 {
@@ -221,7 +234,7 @@ button:focus {
 
 #box-strength-3 {
   text-align: left; 
-  margin-left: 300px; /* Offset Box3 300px to the right */
+  margin-left: auto; /* Offset Box3 300px to the right */
 }
 
 .table {
@@ -365,7 +378,7 @@ textarea {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #616161;
+  background-color: var(--main-text-color);
   transition-duration: .25s;
 }
 .menu__btn > span::before {
@@ -386,14 +399,14 @@ textarea {
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: #ECEFF1;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  background-color: white;
+  box-shadow: 2px 2px 6px rgba(187, 187, 187, 0.4);
   transition-duration: .25s;
 }
 .menu__item {
   display: block;
   padding: 12px 24px;
-  color: #333;
+  color: var(--secondary-text-color);
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -401,44 +414,21 @@ textarea {
   transition-duration: .25s;
 }
 .menu__item:hover {
-  background-color: #CFD8DC;
+  background-color: var(--accent-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* End -- menu --- */
 
 
 .container-WorkExperience
 { 
   margin: 0;
- 
   display: flex;
   
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  /* background-color: magenta; */
   
 }
 
@@ -446,6 +436,7 @@ textarea {
   flex: 0 0 50%;
   margin-bottom: 20px;
   /* border: 1px solid black; */
+ /* background-color: aqua; */
   box-sizing: border-box;
 }
 
