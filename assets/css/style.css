@@ -218,15 +218,14 @@ button:focus {
 
 
 .container-strengths {
-  margin: 0;
-  padding-left: 27%;
-  padding-right: 27%;
+  margin: 0 auto;
+  
   display: flex;
   flex-direction:column; 
   align-items: center;
   justify-content: center;
  /* background-color: violet; */
-  width: auto;
+  width: 80%;
   height: auto;
   row-gap: 25px;
   column-gap: 25px;
