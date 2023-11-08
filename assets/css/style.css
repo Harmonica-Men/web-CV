@@ -124,7 +124,7 @@ button:focus {
   background-color: var(--main-bg-color);
 }
 
-.summary {
+.profile-summary {
   margin: 0 auto;
   width: 45%;
   text-align: left;
@@ -534,7 +534,7 @@ textarea {
   }
 
 
-  .summary {
+  .profile-summary {
     width: 90%;
   }
 
