@@ -82,10 +82,6 @@ button:focus {
 	outline: none;
 }
 
-.hamburger-menu {  
-  background-color: var(--main-bg-color);
-}
-
 .top-container {
   margin: 0 auto;
   text-align: center;
@@ -438,10 +434,18 @@ textarea {
 
 /* End -- menu --- */
 
+.container-main {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+
+}
+
 
 .container-WorkExperience
 { 
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   
   justify-content: center;
