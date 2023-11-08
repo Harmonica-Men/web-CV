@@ -1,9 +1,9 @@
 :root {
-  --main-bg-color:  #C2D9FF;
-  --main-text-color: #190482; 
-  --secondary-text-color:  #7752FE; 
-  --accent-color: #8E8FFA; 
-  --border-color: black; 
+  --main-bg-color:  #d4c99c;
+  --main-text-color: #5767b4; 
+  --secondary-text-color:  #858fdd;
+  --accent-color: #d4bf65; 
+  --border-color: 	#ecd67e; 
 }
 
 * {
@@ -41,7 +41,7 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: var(--accent-color);
+  color: var(--secondary-text-color);
   font-size: xx-large; 
   font-weight: bold;
 }
