@@ -10,17 +10,14 @@
   box-sizing: border-box;
 }
 
-
 body {
-    margin: 0;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Merriweather', serif;
-    color: var(--main-text-color);
-  /*  background-image: url(".bg-img"); */
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  color: var(--main-text-color);
   background-image: url("../images/bg.jpg")
-    
 }
 
 
@@ -38,7 +35,8 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  
 }
 
 h3 {
@@ -83,8 +81,6 @@ img {
 button:focus {
 	outline: none;
 }
-
-
 
 .hamburger-menu {  
   background-color: var(--main-bg-color);
@@ -270,7 +266,9 @@ button:focus {
 
 
 
-
+#CV {
+  background-color: var(--main-bg-color);
+}
 
 
 
@@ -305,15 +303,18 @@ button:focus {
   background-color: var(--accent-color);
 }
 
-
-
+.intro {
+  background-color: var(--main-bg-color);
+  font-style: italic;
+}
 
 /* Socials end */
-#rcorners-small {
+.rcorners-small {
   border-radius: 7px; 
   border-color: black;
-  border: 2px solid black; /* Fix: Added a semicolon at the end of this line */
+  border: 2px solid black; 
   border-style:ridge; /* Fix: Use a colon to set the border style */
+  background-color: var(--main-bg-color);
 }
 
 #box-skill-1 { 
