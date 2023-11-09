@@ -159,7 +159,6 @@ button:focus {
    transition: color 0.3s; /* Add a transition for smooth color change */
  }
  
-
  .back-to-top-button:hover {
    color: red; /* Change text color to red on hover */
  }
@@ -169,12 +168,17 @@ button:focus {
 }
 
 .fve-img {
+  height: auto;
+  width: 50%;
+  max-width: 333px;
   padding: 15px;
-   width: 65%; 
+   /* idth: 65%; */
 }
 
 .qr-img {
-  width: 20%;
+  height: auto;
+  width: 100%;
+  max-width: 333px;
 }
 
 .bg-img {
@@ -444,7 +448,9 @@ textarea {
   }
 
   .fve-img {
-    width: 80%; 
+    width: 99%; 
+    max-width: 125px;
+    padding: 5px;
   }
 
   .qr-img {
@@ -501,7 +507,6 @@ textarea {
     text-align: left;
   }
 
-
   .contact-box {    
     width: 90%;
   }
@@ -514,6 +519,11 @@ textarea {
   .submit-buton:hover {
     position: relative;
     text-decoration: none;
+  }
+
+  .container-lang {
+    width: 90%; 
+    
   }
 
   #box-strength-1 {
