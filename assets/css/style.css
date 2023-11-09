@@ -20,8 +20,6 @@ body {
   background-image: url("../images/bg.jpg")
 }
 
-
-
 h1 {
   color: var(--main-text-color);
   font-size: 5.625rem;
@@ -35,8 +33,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  padding-bottom: 5px;
-  
+  padding-bottom: 5px;  
 }
 
 h3 {
@@ -62,7 +59,6 @@ ol {
 li {
   text-align: center;
 }
-
 
 ul {
 	list-style: none;
@@ -124,16 +120,14 @@ button:focus {
   padding: 10px;
 }
 
-
 .contact {    
-    margin: 0 auto; /* Center the container horizontally */
+    margin: 0 auto; 
     text-align: center;
-    /* background-color: white; */
-  }
+}
 
 .container-lang {
   width: 45%; 
-  margin: 0 auto; /* Center the container horizontally */
+  margin: 0 auto; 
   text-align: center;
   background-color: var(--main-bg-color);
 }
@@ -290,7 +284,9 @@ button:focus {
 .box-socials {
   width: 100px; 
   height: 100px;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
+  border-radius: 7px;
+  border: solid black;
   text-align: center;
   border-radius: 15px;
   display: flex;
@@ -302,6 +298,10 @@ button:focus {
 .intro {
   background-color: var(--main-bg-color);
   font-style: italic;
+}
+
+#end {
+  font-weight: bold;
 }
 
 /* Socials end */
@@ -409,7 +409,7 @@ textarea {
   position: fixed;
   top: 0;
   left: -100%;
-  width: 300px;
+  width: 210px;
   height: 100%;
   margin: 0;
   padding: 80px 0;
@@ -420,6 +420,8 @@ textarea {
 }
 .menu__item {
   display: block;
+
+  text-align: left;
   padding: 12px 24px;
   color: var(--secondary-text-color);
   font-family: 'Roboto', sans-serif;
@@ -438,8 +440,7 @@ textarea {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  width: 99%;
-
+  width: 100%;
 }
 
 
@@ -447,19 +448,14 @@ textarea {
 { 
   margin: 0 auto;
   display: flex;
-  
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* background-color: magenta; */
-  
 }
 
 .column-WorkExperience {
   flex: 0 0 50%;
   margin-bottom: 20px;
-  /* border: 1px solid black; */
- /* background-color: aqua; */
   box-sizing: border-box;
 }
 
@@ -470,43 +466,51 @@ textarea {
   text-align: left;
 }
 
-/* Container around content */
+/* 
 .container {
   padding: 10px 40px;
-  /* position: relative; */
+
   background-color: white;
   width: 50%;
 }
 
 
-/* Place the container to the left */
+
 .left {
   left: 0;
 }
 
-/* Place the container to the right */
+
 .right {
   left: 50%;
 }
 
-/* The actual content */
+
 .content {
   padding: 20px 30px;
   background-color: var(--main-bg-color);
-/*  position: relative; */
+
   border-radius: 6px;
 }
 
 
+*/
 
+.btn {
+  background: var(--secondary-text-color);
+  border-radius: 8px;
+  font-family: "Arial";
+  color: #ffffff;
+  font-size: large;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
+.btn:hover {
+  position: relative;
+  background: var(--secondary-text-color);
+  text-decoration: none;
+}
 
 
 
@@ -517,10 +521,7 @@ textarea {
   textarea {
     width: 80%; 
     height: 5em;
-    
   }
-
-
 
   .fve-img {
     width: 80%; 
@@ -538,11 +539,9 @@ textarea {
     width: 90%;
   }
 
-
   .profile-summary {
     width: 90%;
   }
-
 
   .column-WorkExperience {
     flex: 0 0 90%;
@@ -561,12 +560,13 @@ textarea {
     height: 50px; 
     background-color: var(--main-bg-color);
     text-align: center;
+    
     border-radius: 7px;
-    /* border: solid black; */
+    border: solid black;
     padding: 10px;
-    font-size: 1.75rem;background-color: var(--accent-color);
+    font-size: 1.75rem;
   }
-/* 768 */
+
   .container-strengths {
 
     margin: 0;
@@ -581,6 +581,21 @@ textarea {
     width: 90%; 
     height: auto;
     text-align: left;
+  }
+
+
+  .contact-box {    
+    width: 90%;
+  }
+
+  .btn {
+    font-size: medium;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .btn:hover {
+    position: relative;
+    text-decoration: none;
   }
 
   #box-strength-1 {
@@ -598,7 +613,4 @@ textarea {
     text-align: left;
   }
 
-  .contact-box {    
-    width: 90%;
-  }
 }
