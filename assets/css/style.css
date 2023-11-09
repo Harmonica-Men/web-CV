@@ -74,10 +74,6 @@ img {
 	max-width: 100%;
 }
 
-button:focus {
-	outline: none;
-}
-
 .top-container {
   margin: 0 auto;
   text-align: center;
@@ -168,20 +164,21 @@ button:focus {
 }
 
 .fve-img {
-  height: 350px;      /* This allows the height to adjust automatically based on the content */
-  width: 350px;      /* The width is set to 400 pixels */
-   /* The maximum width is limited to 333 pixels */
-  padding: 15px;     /* 15 pixels of padding on all sides */
+  height: auto;    
+  width: 100%;     
+  max-width: 333px;
+  padding: 15px;  
 }
 
 .qr-img {
-  height: 300px;     /* The height is set to 400 pixels */
-  width: 300px;      /* The width is set to 400 pixels */
-    /* The maximum width is limited to 333 pixels */
+  height: auto;    
+  width: 100%;     
+  max-width: 255px;
+  padding: 15px;  
 }
 
 .bg-img {
-  width: 66%;
+  width: 99%;
 }
 
 .label {
