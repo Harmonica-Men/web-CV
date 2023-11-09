@@ -295,10 +295,10 @@ button:focus {
 
 
 /* Socials end */
-.rcorners-small {
+.corners {
   border-radius: 7px; 
   border-color: black;
-  border: 2px solid black; 
+  border: solid black; 
   border-style:ridge; /* Fix: Use a colon to set the border style */
   background-color: var(--main-bg-color);
 }
