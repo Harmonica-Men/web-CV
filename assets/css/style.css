@@ -151,23 +151,21 @@ button:focus {
 }
 
 .back-to-top-button {
-  /* background-color: black;*/
    color: white;
    padding: 10px 20px;
    border: none;
    cursor: pointer;
    font-size: 16px;
-   /* transition: color 0.3s; /* Add a transition for smooth color change */
+   transition: color 0.3s; /* Add a transition for smooth color change */
  }
  
- /* Add a hover effect for the "back-to-top-button" */
+
  .back-to-top-button:hover {
    color: red; /* Change text color to red on hover */
  }
 
 .pro {
   text-decoration: underline;
-  /* background-color: red; */
 }
 
 .fve-img {
@@ -194,23 +192,12 @@ button:focus {
   padding: 20px 0;
 }
 
-
-
-
-
-
-
-
-
-
 .container-strengths {
   margin: 0 auto;
-  
   display: flex;
   flex-direction:column; 
   align-items: center;
   justify-content: center;
- /* background-color: violet; */
   width: 80%;
   height: auto;
   row-gap: 25px;
@@ -233,12 +220,12 @@ button:focus {
 }
 
 #box-strength-2 {
-  margin: 0; /* Reset any margins applied previously */
+  margin: 0; 
 }
 
 #box-strength-3 {
   text-align: left; 
-  margin-left: auto; /* Offset Box3 300px to the right */
+  margin-left: auto; 
 }
 
 .table {
@@ -248,19 +235,8 @@ button:focus {
 .table th, .table td {
   text-align: center;
   padding: 12px;  padding: 5px;
-
-  /* Center align the text in table headers and cells */
   background-color: var(--main-bg-color) 
 }
-
-
-
-
-
-
-
-/* Socials */
-
 
 .container-socials {
   display: flex;
@@ -292,14 +268,11 @@ button:focus {
   font-style: italic;
 }
 
-
-
-/* Socials end */
 .corners {
   border-radius: 7px; 
   border-color: black;
   border: solid black; 
-  border-style:ridge; /* Fix: Use a colon to set the border style */
+  border-style:ridge; 
   background-color: var(--main-bg-color);
 }
 
@@ -324,56 +297,33 @@ button:focus {
 
 #box-skill-3 {
   text-align: left; 
-  
   margin-left: 300px; /* Offset Box3 300px to the right */
 }
 
 textarea {
   resize: none;
-  width: 80%; /* Set the initial width to 100% */
+  width: 80%; 
   height: 5em;
-   /* Add padding as needed */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------- nav bar -------------- */
 #menu-toggle {
   opacity: 0;
 }
+
 #menu-toggle:checked + .menu-buton > span {
   transform: rotate(45deg);
 }
+
 #menu-toggle:checked + .menu-buton > span::before {
   top: 0;
   transform: rotate(0deg);
 }
+
 #menu-toggle:checked + .menu-buton > span::after {
   top: 0;
   transform: rotate(90deg);
 }
+
 #menu-toggle:checked ~ .menu-box {
   left: 0 !important;
 }
@@ -386,6 +336,7 @@ textarea {
   cursor: pointer;
   z-index: 1;
 }
+
 .menu-buton > span,
 .menu-buton > span::before,
 .menu-buton > span::after {
@@ -396,14 +347,17 @@ textarea {
   background-color: var(--main-text-color);
   transition-duration: .25s;
 }
+
 .menu-buton > span::before {
   content: '';
   top: -8px;
 }
+
 .menu-buton > span::after {
   content: '';
   top: 8px;
 }
+
 .menu-box {
   display: block;
   position: fixed;
@@ -418,6 +372,7 @@ textarea {
   box-shadow: 2px 2px 6px rgba(187, 187, 187, 0.4);
   transition-duration: .25s;
 }
+
 .menu-item {
   display: block;
   text-align: left;
@@ -429,6 +384,7 @@ textarea {
   text-decoration: none;
   transition-duration: .25s;
 }
+
 .menu-item:hover {
   background-color: var(--accent-color);
 }
@@ -464,36 +420,6 @@ textarea {
   text-align: left;
 }
 
-/* 
-.container {
-  padding: 10px 40px;
-
-  background-color: white;
-  width: 50%;
-}
-
-
-
-.left {
-  left: 0;
-}
-
-
-.right {
-  left: 50%;
-}
-
-
-.content {
-  padding: 20px 30px;
-  background-color: var(--main-bg-color);
-
-  border-radius: 6px;
-}
-
-
-*/
-
 .submit-buton {
   background: var(--secondary-text-color);
   border-radius: 8px;
@@ -509,10 +435,6 @@ textarea {
   background: var(--secondary-text-color);
   text-decoration: none;
 }
-
-
-
-
 
 /* dia query for smaller screens (adjust as needed) */
 @media (max-width: 768px) {
