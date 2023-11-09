@@ -168,17 +168,16 @@ button:focus {
 }
 
 .fve-img {
-  height: auto;
-  width: 50%;
-  max-width: 333px;
-  padding: 15px;
-   /* idth: 65%; */
+  height: 350px;      /* This allows the height to adjust automatically based on the content */
+  width: 350px;      /* The width is set to 400 pixels */
+   /* The maximum width is limited to 333 pixels */
+  padding: 15px;     /* 15 pixels of padding on all sides */
 }
 
 .qr-img {
-  height: auto;
-  width: 100%;
-  max-width: 333px;
+  height: 300px;     /* The height is set to 400 pixels */
+  width: 300px;      /* The width is set to 400 pixels */
+    /* The maximum width is limited to 333 pixels */
 }
 
 .bg-img {
