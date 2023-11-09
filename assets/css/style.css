@@ -360,24 +360,24 @@ textarea {
 
 
 /* ---------------- nav bar -------------- */
-#menu__toggle {
+#menu-toggle {
   opacity: 0;
 }
-#menu__toggle:checked + .menu__btn > span {
+#menu-toggle:checked + .menu-buton > span {
   transform: rotate(45deg);
 }
-#menu__toggle:checked + .menu__btn > span::before {
+#menu-toggle:checked + .menu-buton > span::before {
   top: 0;
   transform: rotate(0deg);
 }
-#menu__toggle:checked + .menu__btn > span::after {
+#menu-toggle:checked + .menu-buton > span::after {
   top: 0;
   transform: rotate(90deg);
 }
-#menu__toggle:checked ~ .menu__box {
+#menu-toggle:checked ~ .menu-box {
   left: 0 !important;
 }
-.menu__btn {
+.menu-buton {
   position: fixed;
   top: 20px;
   left: 20px;
@@ -386,9 +386,9 @@ textarea {
   cursor: pointer;
   z-index: 1;
 }
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
+.menu-buton > span,
+.menu-buton > span::before,
+.menu-buton > span::after {
   display: block;
   position: absolute;
   width: 100%;
@@ -396,15 +396,15 @@ textarea {
   background-color: var(--main-text-color);
   transition-duration: .25s;
 }
-.menu__btn > span::before {
+.menu-buton > span::before {
   content: '';
   top: -8px;
 }
-.menu__btn > span::after {
+.menu-buton > span::after {
   content: '';
   top: 8px;
 }
-.menu__box {
+.menu-box {
   display: block;
   position: fixed;
   top: 0;
@@ -418,9 +418,8 @@ textarea {
   box-shadow: 2px 2px 6px rgba(187, 187, 187, 0.4);
   transition-duration: .25s;
 }
-.menu__item {
+.menu-item {
   display: block;
-
   text-align: left;
   padding: 12px 24px;
   color: var(--secondary-text-color);
@@ -430,7 +429,7 @@ textarea {
   text-decoration: none;
   transition-duration: .25s;
 }
-.menu__item:hover {
+.menu-item:hover {
   background-color: var(--accent-color);
 }
 
@@ -442,7 +441,6 @@ textarea {
   align-items: center;
   width: 100%;
 }
-
 
 .container-WorkExperience
 { 
@@ -496,7 +494,7 @@ textarea {
 
 */
 
-.btn {
+.submit-buton {
   background: var(--secondary-text-color);
   border-radius: 8px;
   font-family: "Arial";
@@ -506,7 +504,7 @@ textarea {
   text-decoration: none;
 }
 
-.btn:hover {
+.submit-buton:hover {
   position: relative;
   background: var(--secondary-text-color);
   text-decoration: none;
@@ -586,12 +584,12 @@ textarea {
     width: 90%;
   }
 
-  .btn {
+  .submit-buton {
     font-size: medium;
     padding: 5px 10px 5px 10px;
   }
   
-  .btn:hover {
+  .submit-buton:hover {
     position: relative;
     text-decoration: none;
   }
