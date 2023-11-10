@@ -2,7 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae - Filip Van Elslande</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="icon" href="assets/images/code-solid.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,31 +19,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="curriculum vitae, CV, Filip Van Elslande, skills, experience">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
   </head>
   <body>
     
-    <section class="top-container" id="home">
+    <nav class="navbar">
+      <div class="navbar-container container">
+          <input type="checkbox" name="" id="home">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a href="#hello">Hello</a></li>
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#work">Work Experience</a></li>
+              <li><a href="#strenght">Strenghts</a></li>
+              <li><a href="#competent">Competencies</a></li>
+              <li><a href="#languages">Languages</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#footer">Socials</a></li>
+          </ul>
+      </div>
+    </nav>
+
+    <section class="top-container">
+      <br>
+      <br>
       <h2>Curriculum Vitae</h2>
-      <input id="menu-toggle" type="checkbox">
-      <label class="menu-buton" for="menu-toggle"><span></span></label>
-      <ul class="menu-box">
-        <li><a class="menu-item menu-link" href="#home">Home</a></li>
-        <li><a class="menu-item menu-link" href="#hello">Hello</a></li>
-        <li><a class="menu-item menu-link" href="#summary">Summary</a></li>
-        <li><a class="menu-item menu-link" href="#work">Work Experience</a></li>
-        <li><a class="menu-item menu-link" href="#strenght">Strenghts</a></li>
-        <li><a class="menu-item menu-link" href="#competent">Competencies</a></li>
-        <li><a class="menu-item menu-link" href="#languages">Languages</a></li>
-        <li><a class="menu-item menu-link" href="#contact">Contact</a></li>
-        <li><a class="menu-item menu-link" href="#footer">Socials</a></li>
-      </ul>
       <h3>of</h3>
       <h1><em>I 'm Filip</em></h1>
       <h2>a <span class="pro">pro</span>grammer</h2>
       <img class="qr-img" src="assets/images/QR-fve.png" alt="qr-img">
       <h3>dedicated</h3>
     </section>
+
+
 
     <hr>
 
@@ -358,7 +380,7 @@
         </div>
       </div>
     </section>
-    
+    <!--
     <script>
       const menuLinks = document.querySelectorAll('.menu-link');
       function closeSlidingWindow() {
@@ -369,5 +391,6 @@
         link.addEventListener('click', closeSlidingWindow);
       });
     </script>
+    -->
   </body>
 </html>
