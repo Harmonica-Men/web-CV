@@ -37,7 +37,7 @@ body {
 
 h1 {
   color: var(--main-text-color);
-  font-size: 5.625rem;
+  font-size: 5.725rem;
   margin: 0px;
   font-family: 'Sacramento', cursive;
   font-weight: bolder;
@@ -54,7 +54,7 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: var(--secondary-text-color);
-  font-size: xx-large; 
+  font-size: 2rem; 
   font-weight: bolder;
 }
 
@@ -105,26 +105,20 @@ img {
   padding: 10px;
 }
 
+#personalia {
+  padding-bottom: 10px;
+}
+
 .personalia {
   margin: 0 auto;
-  width: 60%;
-  text-align: center;
-  justify-content: center;
+  width: 66%;
   align-items: center;
-  background-color: var(--main-bg-color);
-  font-weight: bold;
   font-size: large;
-  text-align: center;
 }
 
 .profile {
-  margin: 0 auto;
-  /* width: 99%; */
-  text-align: center;
-  background-color: var(--main-bg-color);
-  padding: 10px;
+  padding-bottom: 0px;
 }
-
 
 .profile-sub {
   width: 90%;
@@ -285,14 +279,13 @@ img {
 
 .corners {
   border-radius: 7px; 
- /* border-color: black; */
   border: solid black; 
   border-style: ridge; 
   background-color: var(--main-bg-color);
 }
 
 #end {
-  font-family: ;
+  
   font-weight: bold;
   height: auto;
 }
@@ -335,14 +328,16 @@ textarea {
 
 .column-WorkExperience {
   flex: 0 0 70%;
-  margin-bottom: 20px;
+  gap: 10px;
+ /* margin-bottom: 20px; */
   box-sizing: border-box;
 }
 
 .box-WorkExperience {
-  background-color: var(--main-bg-color);
-  padding: 20px;
-  margin: 10px;
+  /* background-color: var(--main-bg-color); */
+  padding: 10px; 
+  margin: 20px;
+  margin-bottom: 0px; 
   text-align: left;
 }
 
@@ -364,6 +359,18 @@ textarea {
 
 /* dia query for smaller screens (adjust as needed) */
 @media (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+  
   textarea {
     width: 80%; 
     height: 5em;
@@ -550,7 +557,7 @@ textarea {
 
 
 /* ............//// Showcase styling ////......... */
-
+/*
 .showcase-area {
   height: 50vh;
   
