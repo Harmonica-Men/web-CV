@@ -72,7 +72,7 @@ ol {
 }
 
 li {
-  text-align: right;
+  text-align: left;
 }
 
 ul {
@@ -201,7 +201,9 @@ img {
 .copyright {
  /* color: black; */
   font-size: 1,5rem;
+
   padding: 20px 0;
+  padding-left: 20px;
 }
 
 .container-strengths {
