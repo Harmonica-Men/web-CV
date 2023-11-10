@@ -68,16 +68,16 @@ hr {
 }
 
 ol {
-  text-align: left;
+  text-align: center;
 }
 
 li {
-  text-align: center;
+  text-align: right;
 }
 
 ul {
 	list-style: none;
-	margin: 0 !important;
+	/*margin: 0 !important;*/
 }
 
 a {
@@ -132,8 +132,8 @@ img {
 .container-lang {
   width: 45%; 
   margin: 0 auto; 
-  text-align: center;
-  background-color: var(--main-bg-color);
+  /*text-align: center; */
+  background-color: var(--main-bg-color); 
 }
   
 .contact-box {
@@ -281,7 +281,7 @@ img {
   border-radius: 7px; 
   border: solid black; 
   border-style: ridge; 
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
 }
 
 #end {
