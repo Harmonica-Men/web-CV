@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
   --main-bg-color:  #d4c99c;
   --main-text-color: #5767b4; 
@@ -6,9 +10,20 @@
   --border-color: 	#ecd67e; 
 }
 
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
 }
+
 
 body {
   margin: 0;
@@ -31,9 +46,9 @@ h1 {
 h2 {
   color: var(--secondary-text-color);
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bolder;
-  padding-bottom: 5px;  
+  padding-bottom: 10px;  
 }
 
 h3 {
@@ -78,7 +93,8 @@ img {
   margin: 0 auto;
   text-align: center;
   background-color: var(--main-bg-color);
-  padding: 10px;
+  padding-top: 75px;
+  padding-bottom: 40px;
 }
 
 .middle-container {
@@ -103,10 +119,15 @@ img {
 
 .profile {
   margin: 0 auto;
-  width: 45%;
-  text-align: left;
+  /* width: 99%; */
+  text-align: center;
   background-color: var(--main-bg-color);
   padding: 10px;
+}
+
+
+.profile-sub {
+  width: 90%;
 }
 
 .contact {    
@@ -257,19 +278,21 @@ img {
 }
 
 .intro {
-  background-color: yellow;
+  align-items: center;
+  background-color: var(--main-bg-color);
   font-style: italic;
 }
 
 .corners {
   border-radius: 7px; 
-  border-color: black;
+ /* border-color: black; */
   border: solid black; 
-  border-style:ridge; 
+  border-style: ridge; 
   background-color: var(--main-bg-color);
 }
 
 #end {
+  font-family: ;
   font-weight: bold;
   height: auto;
 }
@@ -294,98 +317,11 @@ textarea {
   height: 5em;
 }
 
-/*
-
-#menu-toggle {
-  opacity: 0;
-}
-
-#menu-toggle:checked + .menu-buton > span {
-  transform: rotate(45deg);
-}
-
-#menu-toggle:checked + .menu-buton > span::before {
-  top: 0;
-  transform: rotate(0deg);
-}
-
-#menu-toggle:checked + .menu-buton > span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-
-#menu-toggle:checked ~ .menu-box {
-  left: 0 !important;
-}
-.menu-buton {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 26px;
-  height: 26px;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.menu-buton > span,
-.menu-buton > span::before,
-.menu-buton > span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: var(--main-text-color);
-  transition-duration: .25s;
-}
-
-.menu-buton > span::before {
-  content: '';
-  top: -8px;
-}
-
-.menu-buton > span::after {
-  content: '';
-  top: 8px;
-}
-
-.menu-box {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: -100%;
-  width: 210px;
-  height: 100%;
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-  background-color: white;
-  box-shadow: 2px 2px 6px rgba(187, 187, 187, 0.4);
-  transition-duration: .25s;
-}
-
-.menu-item {
-  display: block;
-  text-align: left;
-  padding: 12px 24px;
-  color: var(--secondary-text-color);
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  transition-duration: .25s;
-}
-
-.menu-item:hover {
-  background-color: var(--accent-color);
-}
-
-/* End -- menu --- */
-
 .container-main {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  /* width: 80%; */
 }
 
 .container-WorkExperience
@@ -398,7 +334,7 @@ textarea {
 }
 
 .column-WorkExperience {
-  flex: 0 0 50%;
+  flex: 0 0 70%;
   margin-bottom: 20px;
   box-sizing: border-box;
 }
@@ -411,7 +347,7 @@ textarea {
 }
 
 .submit-buton {
-  background: var(--secondary-text-color);
+  background: yellowgreen;
   border-radius: 8px;
   font-family: "Arial";
   color: #ffffff;
@@ -449,6 +385,11 @@ textarea {
 
   .profile {
     width: 90%;
+  }
+
+  
+  .profile-sub {
+    width: 70%;
   }
 
   .column-WorkExperience {
@@ -525,33 +466,6 @@ textarea {
 }
 
 
-
-
-
-
-
-
-
-
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-.html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 /* ///////////..utility classes../////////// */
 
 .container {
@@ -560,7 +474,7 @@ body {
   margin: auto;
 }
 
-
+/*
 .btn {
   display: inline-block;
   padding: 0.5em 1.5em;
@@ -639,11 +553,7 @@ body {
 
 .showcase-area {
   height: 50vh;
-  background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
-    ),
-    url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -661,98 +571,6 @@ body {
 .main-title {
   text-transform: uppercase;
   margin-top: 1.5em;
-}
-
-/* ......//about us//...... */
-
-#about {
-  padding: 50px 0;
-  background: #f5f5f7;
-}
-
-.about-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#about h2 {
-  font-size: 2.3rem;
-}
-
-#about p {
-  font-size: 1.2rem;
-  color: #555;
-}
-
-#about .small {
-  font-size: 1.2rem;
-  color: #666;
-  font-weight: 600;
-}
-
-.about-img {
-  flex: 1 1 400px;
-  padding: 30px;
-  transform: translateX(150%);
-  animation: about-img-animation 1s ease-in-out forwards;
-}
-
-@keyframes about-img-animation {
-  100% {
-    transform: translate(0);
-  }
-}
-
-.about-text {
-  flex: 1 1 400px;
-  padding: 30px;
-  margin: auto;
-  transform: translate(-150%);
-  animation: about-text-animation 1s ease-in-out forwards;
-}
-
-@keyframes about-text-animation {
-  100% {
-    transform: translate(0);
-  }
-}
-
-.about-img img {
-  display: block;
-  height: 400px;
-  max-width: 100%;
-  margin: auto;
-  object-fit: cover;
-  object-position: right;
-}
-
-/* ..........////Food category///........... */
-
-#food {
-  padding: 5rem 0 10rem 0;
-}
-
-#food h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 400;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  color: #555;
-}
-
-.food-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.food-container img {
-  display: block;
-  width: 100%;
-  margin: auto;
-  max-height: 300px;
-  object-fit: cover;
-  object-position: center;
 }
 
 .img-container {
@@ -791,7 +609,6 @@ body {
   background: rgba(0, 0, 0, 0.871);
   opacity: 0;
   z-index: 1;
-
   transform: scaleY(0);
   transform-origin: 100% 100%;
   transition: all 0.3s ease-in-out;
@@ -805,178 +622,6 @@ body {
 .img-container:hover .img-content {
   opacity: 1;
   top: 40%;
-}
-
-/* .........../Food Menu/............ */
-
-.food-menu-heading {
-  text-align: center;
-  font-size: 3.4rem;
-  font-weight: 400;
-  color: #666;
-}
-
-.food-menu-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 50px 0px 30px 0px;
-}
-
-.food-menu-container img {
-  display: block;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.food-menu-item {
-  display: flex;
-  flex: 1 1 600px;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
-
-.food-description {
-  margin: auto 1.5rem;
-}
-
-.font-title {
-  font-size: 1.8rem;
-  font-weight: 400;
-  color: #444;
-}
-
-.food-description p {
-  font-size: 1.4rem;
-  color: #555;
-  font-weight: 500;
-}
-
-.food-description .food-price {
-  color: #117964;
-  font-weight: 700;
-}
-
-/* ........./ Testimonial /.......... */
-
-#testimonials {
-  padding: 5rem 0;
-  background: rgba(243, 243, 243);
-}
-
-.testimonial-title {
-  text-align: center;
-  font-size: 2.8rem;
-  font-weight: 400;
-  color: #555;
-}
-
-.testimonial-container {
-  display: flex;
-  justify-content: space-between;
-  font-size: 1.4rem;
-  padding: 1rem;
-}
-
-.testimonial-box .checked {
-  color: #ff9529;
-}
-
-.testimonial-box .testimonial-text {
-  margin: 1rem 0;
-  color: #444;
-}
-
-.testimonial-box {
-  text-align: center;
-  padding: 1rem;
-}
-
-.customer-photo img {
-  display: block;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-  margin: auto;
-}
-
-/* ........ Contact Us........... */
-
-#contact {
-  padding: 5rem 0;
-  background: rgb(226, 226, 226);
-}
-
-.contact-container {
-  display: flex;
-  background: #fff;
-}
-
-.contact-img {
-  width: 50%;
-}
-
-.contact-img img {
-  display: block;
-  height: 400px;
-  width: 100%;
-  object-position: center;
-  object-fit: cover;
-}
-
-.form-container {
-  padding: 1rem;
-  width: 50%;
-  margin: auto;
-}
-
-.form-container input {
-  display: block;
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid #ddd;
-  padding: 1rem 0;
-  box-shadow: none;
-  outline: none;
-  margin-bottom: 1rem;
-  color: #444;
-  font-weight: 500;
-}
-
-.form-container textarea {
-  display: block;
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid #ddd;
-  color: #444;
-  outline: none;
-  padding: 1rem 0;
-  resize: none;
-}
-
-.form-container h2 {
-  font-size: 2.7rem;
-  font-weight: 500;
-  color: #444;
-  margin-bottom: 1rem;
-  margin-top: -1.2rem;
-}
-
-.form-container a {
-  font-size: 1.3rem;
-}
-
-#footer h2 {
-  text-align: center;
-  font-size: 1.8rem;
-  padding: 2.6rem;
-  font-weight: 500;
-  color: #fff;
-  background: rgb(65, 65, 65);
 }
 
 /* ......../ media query /.......... */
@@ -1079,89 +724,7 @@ body {
     transform: rotate(-35deg);
   }
 
-  /* ......./ food /......... */
-
-  .food-container {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .food-type:not(:last-child) {
-    margin-bottom: 3rem;
-  }
-
-  .food-type {
-    box-shadow: 5px 5px 10px 0 #aaa;
-  }
-
   .img-container {
     margin: 0;
-  }
-}
-
-@media (max-width: 500px) {
-  html {
-    font-size: 65%;
-  }
-
-  .navbar .menu-items li{
-      font-size: 1.6rem;
-  }
-
-  .testimonial-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .food-menu-container img {
-    margin: auto;
-  }
-
-  .food-menu-item {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .form-container {
-    width: 90%;
-  }
-
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact-img {
-    width: 90%;
-    margin: 3rem auto;
-  }
-
-  .logo {
-    position: absolute;
-    top: 06px;
-    right: 15px;
-    font-size: 3rem;
-  }
-
-  .navbar .menu-items li {
-    margin-bottom: 2.5rem;
-    font-size: 1.8rem;
-    font-weight: 500;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1200px) {
-  .img-container h3 {
-    font-size: 1.5rem;
-  }
-
-  .img-container .btn {
-    font-size: 0.7rem;
-  }
-}
-
-@media (orientation: landscape) and (max-height: 500px) {
-  .showcase-area {
-    height: 50vmax;
   }
 }

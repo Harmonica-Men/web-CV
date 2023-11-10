@@ -16,22 +16,26 @@
     <link rel="icon" href="assets/images/code-solid.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="curriculum vitae, CV, Filip Van Elslande, skills, experience">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+   
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
+
   </head>
   <body>
     
     <nav class="navbar">
       <div class="navbar-container container">
-          <input type="checkbox" name="" id="home">
+          <input type="checkbox">
           <div class="hamburger-lines">
               <span class="line line1"></span>
               <span class="line line2"></span>
               <span class="line line3"></span>
           </div>
           <ul class="menu-items">
+              <li><a href="#home">Home</a></li>
               <li><a href="#hello">Hello</a></li>
               <li><a href="#summary">Summary</a></li>
               <li><a href="#education">Education</a></li>
@@ -44,10 +48,8 @@
           </ul>
       </div>
     </nav>
-
-    <section class="top-container">
-      <br>
-      <br>
+ 
+    <section class="top-container" id="home">
       <h2>Curriculum Vitae</h2>
       <h3>of</h3>
       <h1><em>I 'm Filip</em></h1>
@@ -55,8 +57,6 @@
       <img class="qr-img" src="assets/images/QR-fve.png" alt="qr-img">
       <h3>dedicated</h3>
     </section>
-
-
 
     <hr>
 
@@ -69,6 +69,7 @@
             <i class="fas fa-house-user"> Filip Van Elslande, Blackrockstreet 45, Dublin, Ireland </i> 
             <i class="fas fa-at">fve@vanelslande.com</i>  
             <i class="fas fa-phone">+01-01234567</i> 
+            <i class="fas fa-phone">birthday </i> 
           </div>
           <img class="fve-img" src="assets/images/fve.webp" alt="Filip Van Elslande">
           <h2>Hello</h2>
@@ -78,15 +79,15 @@
           <p> – Linus Torvalds</p>  
         </div>    
       </div>
-      <div class="back-to-top-button">
+      <div class="back-to-top-button" id="summary">
         <a href="#home">Back to Top</a>
         <hr>
       </div>
     </section>
 
-    <section class="container-main" id="summary">
+    <section class="container-main" >
       <h2>Summary</h2>
-      <div class="profile corners">
+      <div class="profile-sub corners">
         <p>
           Experienced Full Stack Developer with a strong proficiency
           in C#, SQL, Visual Studio, and other relevant technologies.
@@ -103,15 +104,15 @@
           to the success of the team and drive continuous improvement
         </p>
       </div>
-      <div class="back-to-top-button">
+      <div class="back-to-top-button" id="education">
         <a href="#home">Back to Top</a>
       </div>
       <hr>
     </section>
 
-    <section class="container-main" id="education">
+    <section class="container-main">
       <h2>Education</h2>
-      <div class="profile corners">
+      <div class="profile-sub corners">
         <p>
           Experienced Full Stack Developer with a strong proficiency
           in C#, SQL, Visual Studio, and other relevant technologies.
@@ -128,13 +129,13 @@
           to the success of the team and drive continuous improvement
         </p>
       </div>
-      <div class="back-to-top-button">
+      <div class="back-to-top-button" id="work">
         <a href="#home">Back to Top</a>
       </div>
       <hr>
     </section>
 
-    <section class="container-main" id="work"> 
+    <section class="container-main"> 
       <h2>Work Experience</h2>
       <div class="container-WorkExperience">
         <div class="column-WorkExperience">
@@ -158,16 +159,16 @@
           </div>
         </div>
       </div>
-      <div class="back-to-top-button">
+      <div class="back-to-top-button" id="strenght">
         <a href="#home">Back to Top</a>
       </div>
       <hr>
     </section>
 
-    <section class="container-main" id="strenght">
+    <section class="container-main">
       <h2>My strengths</h2>
       <div class="container-strengths">
-        <div class="box-strengths"  id="box-strength-1">
+        <div class="box-strengths" id="box-strength-1">
           <h3>* Team Collaboration</h3>
           <p>
             Team Collaboration
@@ -176,7 +177,7 @@
             a complex software project on time and within budget.
           </p>
         </div>
-        <div class="box-strengths"  id="box-strength-2">
+        <div class="box-strengths" id="box-strength-2">
           <h3>* Problem Solving</h3>
           <p>
             Solved complex software issues, 
@@ -192,13 +193,13 @@
           </p>
         </div>
       </div>
-      <div class="back-to-top-button">
+      <div class="back-to-top-button" id="competent">
         <a href="#home">Back to Top</a>
       </div>
       <hr>
     </section>
 
-    <section class="container-main" id="competent">
+    <section class="container-main">
       <div class="table-container">
         <h2>Competencies</h2>
         <table class="table corners">
@@ -281,13 +282,13 @@
           </tr>
         </table>
       </div>
-      <div class="back-to-top-button">
+      <div class="back-to-top-button" id="languages">
         <a href="#home">Back to Top</a>
       </div>
       <hr>
     </section>
 
-    <section class="container-main" id="languages">
+    <section class="container-main">
       <h2>Languages</h2>
       <div class="container-lang corners">
         <ol>
@@ -316,13 +317,13 @@
           </li>
         </ol>
       </div>
-      <div class="back-to-top-button">
+      <div class="back-to-top-button" id="contact">
         <a href="#home">Back to Top</a>
       </div>
       <hr>
     </section>
 
-    <section class="container-main" id="contact"> 
+    <section class="container-main"> 
       <div class="contact"> 
         <h2>Get In Touch</h2>
         <div class="contact-box corners">
@@ -339,13 +340,13 @@
           </form>
         </div>
       </div>
-      <div class="back-to-top-button">
+      <div class="back-to-top-button" id="footer">
         <a href="#home">Back to Top</a>
       </div>
       <hr>
     </section>
     
-    <section class="container-main" id="footer">
+    <section class="container-main">
       <h2>Socials</h2>
       <div class="footer">
         <div class="container-socials">
@@ -380,17 +381,5 @@
         </div>
       </div>
     </section>
-    <!--
-    <script>
-      const menuLinks = document.querySelectorAll('.menu-link');
-      function closeSlidingWindow() {
-        const menuToggle = document.getElementById('menu__toggle');
-        menuToggle.checked = false;
-      }
-        menuLinks.forEach(link => {
-        link.addEventListener('click', closeSlidingWindow);
-      });
-    </script>
-    -->
   </body>
 </html>
