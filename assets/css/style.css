@@ -101,7 +101,7 @@ img {
   margin: 0 auto;
   width: 45%;
   text-align: center;
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color);  */
   padding: 10px;
 }
 
@@ -120,8 +120,12 @@ img {
   padding-bottom: 0px;
 }
 
-.profile-sub {
-  width: 90%;
+.sub {
+  margin: 0 auto;
+  width: 66%;
+  text-align: center;
+  /* background-color: var(--main-bg-color);  */
+  padding: 10px;
 }
 
 .contact {    
@@ -195,8 +199,8 @@ img {
 }
 
 .copyright {
-  color: black;
-  font-size: 1rem;
+ /* color: black; */
+  font-size: 1,5rem;
   padding: 20px 0;
 }
 
@@ -210,12 +214,13 @@ img {
   height: auto;
   row-gap: 25px;
   column-gap: 25px;
+ 
 }
 
 .box-strengths {
   width: 45%; 
   height: auto;
-  background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color); 
   text-align: center;
   border-radius: 7px;
   border: solid black;
@@ -243,7 +248,7 @@ img {
 .table th, .table td {
   text-align: center;
   padding: 12px;  padding: 5px;
-  background-color: var(--main-bg-color) 
+  /*background-color: var(--main-bg-color) */
 }
 
 .container-socials {
@@ -253,7 +258,7 @@ img {
   height: 200px;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color);*/
   color: var(--main-text-color);
 }
 
@@ -268,12 +273,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--accent-color);
+   background-color: var(--accent-color);
 }
 
 .intro {
   align-items: center;
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color);*/
   font-style: italic;
 }
 
@@ -281,7 +286,7 @@ img {
   border-radius: 7px; 
   border: solid black; 
   border-style: ridge; 
-  /* background-color: var(--main-bg-color); */
+  background-color: var(--main-bg-color); 
 }
 
 #end {
@@ -391,11 +396,13 @@ textarea {
   }
 
   .profile {
+    
     width: 90%;
+
   }
 
-  
-  .profile-sub {
+  .sub {
+    
     width: 70%;
   }
 
@@ -423,6 +430,7 @@ textarea {
   }
 
   .container-strengths {
+    
     margin: 0;
     text-align: center;
     justify-content: center;
@@ -432,6 +440,7 @@ textarea {
   }
 
   .box-strengths {
+   
     width: 90%; 
     height: auto;
     text-align: left;
@@ -464,6 +473,7 @@ textarea {
   #box-strength-2 {
     margin: 0;
     text-align: left; 
+    
   }
 
   #box-strength-3 {
