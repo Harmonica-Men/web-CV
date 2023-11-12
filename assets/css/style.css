@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --main-text-color: #E19898; 
-  --secondary-text-color:  #A2678A; 
-  --accent-color: #4D3C77;  
-  --main-bg-color:  #3F1D38;
-  --border-color: #4D3C77; 
+  --main-text-color: #b19595; 
+  --secondary-text-color:  #e4a1c9; 
+  --accent-color: #8a7bb1;  
+  --main-bg-color:  #58284f;
+  --border-color: #7260a0; 
 }
 
 *,
@@ -26,7 +26,8 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: 'Merriweather', serif;
+  /*font-family: 'Merriweather', serif;  */
+  font-family: 'Raleway', serif;
   color: var(--main-text-color); 
   background: #000;
   /* background-image: url("../images/bg.jpg") */
@@ -42,17 +43,17 @@ h1 {
 
 h2 {
   color: var(--secondary-text-color); 
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 3rem;
-  font-weight: bolder;
+  /*font-weight: bolder;*/
   padding-bottom: 10px;  
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif; 
   color: var(--secondary-text-color);
   font-size: 2rem; 
-  font-weight: bolder;
+  font-weight: lighter;
 }
 
 hr {
@@ -82,7 +83,8 @@ a {
   text-decoration: none !important; 
 	display: inline-block; 
   /* font-size: 0.95rem; */
-   color: var(--secondary-text-color);  
+     color: black; 
+   /* color: var(--secondary-text-color);  */
   /* background-color: yellowgreen;  */
 }
 
@@ -176,7 +178,7 @@ img {
   border-radius: 7px;
   border: solid var(--border-color);
   border-style: ridge;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
   font-size: large;
   font-weight: bolder;
   padding: 10px 20px 10px 20px;
