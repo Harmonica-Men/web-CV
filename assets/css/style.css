@@ -28,7 +28,8 @@ body {
   align-items: center;
   font-family: 'Merriweather', serif;
   color: var(--main-text-color); 
-  background-image: url("../images/bg.jpg")
+  background: #000;
+  /* background-image: url("../images/bg.jpg") */
 }
 
 h1 {
@@ -68,7 +69,8 @@ ol {
 }
 
 li {
-  text-align: left;
+  margin: 10px 10px 10px 40px;
+  text-align: center;
 }
 
 ul {
@@ -80,15 +82,14 @@ a {
   text-decoration: none !important; 
 	display: inline-block; 
   /* font-size: 0.95rem; */
-   color: var(--main-text-color);  
+   color: var(--secondary-text-color);  
   /* background-color: yellowgreen;  */
 }
-/*
+
 a:hover {
   color : red;
 }
 
-*/
 /*
 img {
 	max-width: 100%;
@@ -422,7 +423,7 @@ textarea {
   background: white;
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 70px;
   z-index: 12;
 }
 
