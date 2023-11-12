@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --main-text-color: #b19595; 
-  --secondary-text-color:  #e4a1c9; 
-  --accent-color: #8a7bb1;  
-  --main-bg-color:  #58284f;
+  --main-text-color: #f3e9e9; 
+  --secondary-text-color:  #ee7bc0; 
+  --accent-color: #c7b1ff;  
+  --main-bg-color:  #4c1a43;
   --border-color: #7260a0; 
 }
 
@@ -82,9 +82,10 @@ ul {
 a {
   text-decoration: none !important; 
 	display: inline-block; 
+  font-weight: bolder;
   /* font-size: 0.95rem; */
-     color: black; 
-   /* color: var(--secondary-text-color);  */
+     /* color: black; */
+    color: var(--secondary-text-color);  
   /* background-color: yellowgreen;  */
 }
 
@@ -419,14 +420,14 @@ textarea {
 }
 
 .navbar {
-  box-shadow: 0px 5px 10px 0px gray;
+  /* box-shadow: 0px 5px 10px 0px --accent-color; */
   position: fixed;
   width: 100%;
-  background: white;
-  color: #000;
-  opacity: 0.85;
+  background-color: black;
+  
+  opacity: 0.88;
   height: 70px;
-  z-index: 12;
+  z-index: 10;
 }
 
 .navbar-container {
@@ -579,7 +580,7 @@ textarea {
   }
   
   .navbar {
-    opacity: 0.85;
+    opacity: 0.88;
     
   }
 
@@ -602,7 +603,7 @@ textarea {
     top: 20px;
     left: 20px;
     z-index: 5;
-    opacity: 0;
+    /* opacity: 0; */
    
   }
 
