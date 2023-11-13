@@ -162,6 +162,10 @@ img {
     padding-bottom: 20px;
 }
 
+.menu {
+  font-size: large;
+}
+
 .table-container {
   overflow: scroll;
 }
