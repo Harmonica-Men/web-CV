@@ -73,41 +73,37 @@ This site is intended for future employers or recruiters and should be a kind of
 * The form contact section works in every field and only accept email in the email field and the submit button works.
   
 # Bugs
-* atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-* atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
+* When deploying the project a bug was discovered but it had no impact on the functionallity of the webpage !
+  
+   ![Alt text](bug.png)
+
+
   
 ## Validator Testing
 * HTML
-  * This site passes 100% the official W3C validator 
+  * This site passes 100% the official W3C validator tesst.
 * CSS
-  * ezrzerzer 
+  * There no errors to be found on W3C validator.
 * Accessibilty
-  * g ffgfd  fgdfgzd dfg zdfg dfg dfzgdzfg zdfdgf dzfg df
+  * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-
-screenshot lighthose
-
+      ![Alt text](lighthouse.png)
 
 ## Unfixed Bugs
-sfdqdfsdqsdf sd sdfqsdfqsdf sdf qsd
+* No issues whit bugs.
 
 # Deployment
-* er zezea  fg sdfgsdf fg dsf sd sdfgsdfg dfdfg sdfg sdfg sdfg sdfgsdffgfsd gsdf
-  * dfgdfgzdf dfg sdf
-  * dfzg df gfdzzdfg zfg zdfg df
-  * dfgfzdg dz dffgg  df dfzzdfg  fgzdgfg zdf g
+* This site is depolyed on GitHub pages.
+  * In the correct GitHub reposotory, navigate to the Settings tab.
+  * From the source selection take drop-down menu, select the Master Branch.
+  * Once the master branch has been selected, the page provided the link to the completed website.
   
-fgdzgff dfgdfz dfz fgzdf gzdffgzdf gdfdfzfgddgaertet ertertert erfgsdfgsd f
-
+There is an active live link here: https://harmonica-men.github.io/web-CV/
 
 # Credits
 
 ## Content
-*   dfqdsf sdqfqsdf qs;lm,;: ,:rtgfplmdfkerzbjk erjnjklnfjkdqn sdnf klzerlmzesdqf qsdf sdfsdqf qsd
-*   ds qqfsdqsdfqsdf
+   * The inspration for the design and concept of the web-CV have retained from the appbrewery (online learning platform) whit Angela Yu.
 
 ## Media
-* sdqqsdf qsdfqsdfqsd qsd sdfqsd fsdf qsd fqsdf sdf,qsd;:f qsd:f ,qsd
-  
-  
-The inspration for the design and concept of the web-CV have retained from the appbrewery (online learning platform) whit Angela Yu.
+   * All media used on this site was free and open source.
