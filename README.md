@@ -3,7 +3,9 @@
 A web CV, or web-based curriculum vitae, serves the same purpose as a traditional paper-based curriculum vitae (or 'CV' for short) but is presented online. It is essentially a digital representation of a person's professional and academic background, skills, achievements, and work experience. The primary purpose of a web CV is to showcase an individual's qualifications and accomplishments to potential employers, clients, or collaborators in a format that is easily accessible through the internet.
 
 This site is intended for future employers or recruiters and should be a kind of calling card with direct access to all necessary information.
-![Alt text](readme/web-cv-responsiveness.png)
+
+![Alt text](web-cv-responsiveness.png)
+
 
 ## Features
   
@@ -12,12 +14,13 @@ This site is intended for future employers or recruiters and should be a kind of
    * The navigation bar is located at the top of a webpage or in a prominent position, and it contains links or buttons that direct users to various parts of the site.
    * There is also a "Back To Top" button included in each section of de webpage, so the user has easy access to go back to the top and access the "nav bar" again.   
  
-![Alt text](<readme/Screenshot navbar.png>)
+![Alt text](navbar.png) 
+
 1. Header - Landing Page
    * Because this is a 'web-CV' the QR code is a direct eyecatcher and gives a innovative idea to life whit a direct link to my personal website.
    * The color scheme consist of four colors and two additional colors for underling and highlighting. To make the colors match the creteria of Lighthouse some tweaking was neasary.
       
-      ![Alt text](<Screenshot color-hunt-1.png>) Source: ColorHunt
+      ![Alt text](color-hunt.png) source: Color-Hunt
       
    * The background image matches the chosen color scheme of five colors.
  
@@ -30,7 +33,7 @@ This site is intended for future employers or recruiters and should be a kind of
    * To differsivy myself I included a quote of Linus Trovals
    * For most requiters to have immatly access to contact information is curcial 
  
-   ![Alt text](readme/personalia.png)
+      ![Alt text](personalia-1.png)
 
 3. Sections
    * The 'web-CV' has all the tradiontal elements included as paper based like version. In total there nine section. 
@@ -39,32 +42,35 @@ This site is intended for future employers or recruiters and should be a kind of
    * A first approche for demostration of responiveness, the hole webpage is build from the middle of the screen and is evenly distribute execpt for the 'navbar' to gives a more relax user experience where a lot reading needed. 
    * The division of three block from left to right that give more dynamic into the webpage.
    
-   ![Alt text](<Screenshot Strenghts.png>)
+      ![Alt text](Strenghts-1.png)
 
 1. Sections - Competenties & Languages
    * Here you can see that I used a lot of 'Font Awesome Icons', these are open source and free to use.  
    * Using a table to structure these Icons can be a little bit tricky when you go to very small sizes in responiveness.
 
-      ![Alt text](<Screenshot table.png>)
+      ![Alt text](table-1.png)
 
    * Therefor its not recommend to make large or big table on dynamically webpages.
 
 5. Section - Get In Touch
    * A basic contact form to send a note for whom a interrested are in further notice. 
-   ![Alt text](<Screenshot contact.png>)
+
+      ![Alt text](contact.png)
+
    * When data filled in there will be a responds of the request code demostrating its functionallity.
 
-9. Section - Socails
+6. Section - Socails
     * In a curriculum vitae the importence of socail media is in some cases very benificial. Every socail link opens in a sepperate webpage. 
     * To make the icons more vifit the icons highlight when hover over it this is same for the 'navbar' to make the top and bottom of the page consistent.
 
-      ![Alt text](<Screenshot socails-1.png>)
+      ![Alt text](socails-1.png)
 
 
 ## Testing
-* testatque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-* atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-* atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
+* All the most convential browsers where tested: Chrome, Opera, Firefox, Safari.
+* This project is responsive, looks good on all known devices like smartphone, tablets and laptops.
+* The navigation, header and contact text are all readable and easy to understand.
+* The form contact section works in every field and only accept email in the email field and the submit button works.
   
 # Bugs
 * atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
@@ -72,7 +78,7 @@ This site is intended for future employers or recruiters and should be a kind of
   
 ## Validator Testing
 * HTML
-  * SDQQS dfssdfs fds fsd
+  * This site passes 100% the official W3C validator 
 * CSS
   * ezrzerzer 
 * Accessibilty
