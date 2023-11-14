@@ -476,6 +476,11 @@ textarea {
     font-size: 1.5rem;
   }
   
+  a {
+    font-size: smaller;
+  }
+
+
   textarea {
     width: 80%; 
     height: 5em;
@@ -644,9 +649,10 @@ textarea {
 
   .navbar .menu-items {
     padding-top: 75px;
+    padding-left: 30px;
     background: white; 
-    height: 60vh;
-    max-width: 220px;
+    height: 100vh;
+    max-width: 225px;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
