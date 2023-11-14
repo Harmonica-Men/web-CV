@@ -31,7 +31,7 @@ body {
   font-family: 'Merriweather', serif;
   color: var(--main-text-color); 
   background: #000;
-  /* background-image: url("../images/bg.webp") */
+  background-image: url("../images/bg.webp") 
 }
 
 h1 {
@@ -182,7 +182,7 @@ img {
 .checkbox-label {
   font-family: Arial, sans-serif;
   font-size: 14px;
-  color: #333; /* Adjust color as needed */
+  color: black; /* Adjust color as needed */
 }
 
 
@@ -191,8 +191,8 @@ img {
 
 
 .table-container {
-  overflow: scroll;
-}
+  overflow: auto;
+} 
 
 .footer {
   width: auto;
