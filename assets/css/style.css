@@ -475,11 +475,11 @@ textarea {
   h3 {
     font-size: 1.5rem;
   }
-  
+  /*
   a {
     font-size: small;
   }
-
+*/
 
   textarea {
     width: 80%; 
@@ -533,7 +533,6 @@ textarea {
   }
 
   .container-strengths {
-    
     margin: 0;
     text-align: center;
     justify-content: center;
@@ -543,7 +542,6 @@ textarea {
   }
 
   .box-strengths {
-    
     width: 90%; 
     height: auto;
     text-align: left;
@@ -565,7 +563,6 @@ textarea {
 
   .container-lang {
     width: 90%; 
-    
   }
 
   #box-strength-1 {
@@ -576,7 +573,6 @@ textarea {
   #box-strength-2 {
     margin: 0;
     text-align: left; 
-    
   }
 
   #box-strength-3 {
@@ -586,7 +582,6 @@ textarea {
   
   .navbar {
     opacity: 0.95;
-    
   }
 
 
@@ -649,15 +644,15 @@ textarea {
 
   .navbar .menu-items {
     padding-top: 75px;
-    padding-left: 30px;
-    background: white; 
+    /* padding-left: 30px; */
+    background: white;     
     height: 100vh;
     max-width: 225px;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
     margin-left: -40px;
-    padding-left: 50px;
+    padding-left: 40px;
     transition: transform 0.5s ease-in-out;
     box-shadow: 5px 0px 10px 0px var(--main-bg-color);
   }
@@ -684,7 +679,7 @@ textarea {
 
   .back-to-top-button {
     margin: 7px auto; 
-    font-size: small;
+    font-size: medium;
     padding: 5px 10px 5px 10px;   
    }  
 }
