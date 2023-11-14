@@ -166,6 +166,30 @@ img {
   font-size: large;
 }
 
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the checkbox input */
+.checkbox-input {
+  margin-right: 8px; /* Adjust spacing as needed */
+}
+
+/* Style for the label text */
+.checkbox-label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333; /* Adjust color as needed */
+}
+
+
+
+
+
+
 .table-container {
   overflow: scroll;
 }
