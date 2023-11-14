@@ -406,12 +406,9 @@ textarea {
 
 .submit-button:hover {
   position: relative;
-  /* background: var(--secondary-text-color); */
   color: red;
   text-decoration: none;
 }
-
-
 
 
 .navbar input[type="checkbox"],
@@ -649,7 +646,7 @@ textarea {
     padding-top: 75px;
     background: white; 
     height: 60vh;
-    max-width: 200px;
+    max-width: 220px;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
@@ -678,6 +675,14 @@ textarea {
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
+
+  .back-to-top-button {
+    margin: 7px auto; 
+    font-size: smaller;
+    padding: 5px 10px 5px 10px;
+   
+   }
+  
 /*
   .corners {
     border-width: thin;
