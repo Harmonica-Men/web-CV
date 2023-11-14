@@ -646,10 +646,10 @@ textarea {
   }
 
   .navbar .menu-items {
-    padding-top: 100px;
+    padding-top: 75px;
     background: white; 
-    height: 100vh;
-    max-width: 300px;
+    height: 60vh;
+    max-width: 200px;
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
@@ -661,8 +661,6 @@ textarea {
 
   .navbar .menu-items li {
     margin-bottom: 1.5rem;
-    /* font-size: 1.5rem; */
-   /* font-weight: bolder; */
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
