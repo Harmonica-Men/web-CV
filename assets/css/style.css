@@ -31,7 +31,7 @@ body {
   font-family: 'Merriweather', serif;
   color: var(--main-text-color); 
   background: #000;
-  background-image: url("../images/bg.webp") 
+  /* background-image: url("../images/bg.webp") */
 }
 
 h1 {
@@ -684,19 +684,7 @@ textarea {
 
   .back-to-top-button {
     margin: 7px auto; 
-    font-size: smaller;
-    padding: 5px 10px 5px 10px;
-   
-   }
-  
-/*
-  .corners {
-    border-width: thin;
-  }
-
-  
-  .box-strengths {
-    border-width: thin;
-  }
-*/
+    font-size: small;
+    padding: 5px 10px 5px 10px;   
+   }  
 }
