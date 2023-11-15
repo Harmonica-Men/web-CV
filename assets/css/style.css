@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Sacramento); 
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --main-text-color: #FDEDED; 
-  --secondary-text-color:  hsl(0, 0%, 90%);   
+  --secondary-text-color: E6E6E6;   
   --accent-color: #749BC2;  
   --main-bg-color:  #2e6284;
   --border-color: #133a54; 
