@@ -64,10 +64,11 @@ ol {
 }
 li {
   margin: 10px 10px 10px 40px;
-  text-align: center;
+  text-align: left;
 }
 ul {
 	list-style: none;
+  font-weight: bolder;
 }
 a {
   text-decoration: none !important; 
