@@ -52,7 +52,7 @@ h3 {
   font-weight: bolder;
 }
 hr {
-  margin: 10px auto;
+  margin: 0 auto;
   border-color: var(--main-text-color);
   border-style: dotted;
   border-width: 6px;
@@ -61,14 +61,23 @@ hr {
 }
 ol {
   text-align: left;
+  /* list-style: none; */
+  font-weight: bolder;
+ 
 }
 li {
-  margin: 10px 10px 10px 40px;
-  text-align: left;
-  font-weight: normal;
+  /* margin: 10px 10px 10px 40px;*/
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 3px;
+  list-style: none;
+  font-weight: normal; 
+}
+#center {
+  text-align: center;
 }
 ul {
-  text-align: left;
+  /* text-align: left; */
 	list-style: none;
   font-weight: bolder;
 }
@@ -254,7 +263,7 @@ a:hover {
   border-radius: 15px;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-text-color); 
+  background-color: var(--accent-color); 
 }
 .intro {
   align-items: center;
