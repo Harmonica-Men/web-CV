@@ -112,12 +112,10 @@ The wireframes are below:
 
 ### [Tablet Wireframe](assets/wireframes/layout-tablet.png "Tablet wireframe")
 
-### [Phone Wireframe](wireframes/layout-mobile.png "Phone wireframe")
-
+### [Phone Wireframe](wireframes/layout-smarte.png "Phone wireframe")
 
 &nbsp;
-[Back to Top](#table-of-contents)
-\
+[Back to Top]
 &nbsp;
 
 # Features
