@@ -60,13 +60,15 @@ hr {
   width: 45%; 
 }
 ol {
-  text-align: center;
+  text-align: left;
 }
 li {
   margin: 10px 10px 10px 40px;
   text-align: left;
+  font-weight: normal;
 }
 ul {
+  text-align: left;
 	list-style: none;
   font-weight: bolder;
 }
