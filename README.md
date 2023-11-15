@@ -1,33 +1,5 @@
 # The 'Web CV'
 
-# Table of Contents
-
-- [The 'Web CV'](#the-web-cv)
-- [Table of Contents](#table-of-contents)
-- [UX](#ux)
-  - [Site owners Goals - 'WEB-CV Or 'Paper-CV'?](#site-owners-goals---web-cv-or-paper-cv)
-    - [Web-based CV](#web-based-cv)
-    - [Paper-based CV](#paper-based-cv)
-  - [User Story - As a Recruiter](#user-story---as-a-recruiter)
-    - [Acceptance Criteria](#acceptance-criteria)
-  - [User Story - As a Job Seeker](#user-story---as-a-job-seeker)
-    - [Acceptance Criteria](#acceptance-criteria-1)
-- [Design](#design)
-  - [Design Choices](#design-choices)
-    - [Fonts](#fonts)
-    - [Icons](#icons)
-    - [Colors](#colors)
-    - [Structure](#structure)
-  - [Features](#features)
-  - [Testing](#testing)
-- [Bugs](#bugs)
-  - [Validator Testing](#validator-testing)
-  - [Unfixed Bugs](#unfixed-bugs)
-- [Deployment](#deployment)
-- [Credits](#credits)
-  - [Content](#content)
-  - [Media](#media)
-
 # UX
 
 ## Site owners Goals - 'WEB-CV Or 'Paper-CV'?
@@ -130,7 +102,25 @@ A center-style CV refers to a resume or curriculum vitae (CV for short) in which
 The Web-CV is espcailly trageting for mobile-first devices, because the center style is focusing on creating a visually appealing design for smaller screens.  
 
 
+# Wireframes
 
+I opted for [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") for wireframing to visually structure and plan the layout and design of my website, aiming to provide a user-friendly experience and maintain design consistency across different devices.
+
+The wireframes are below:
+
+### [Desktop Wireframe](assets/wireframes/layout-desktop.png "Desktop wireframe")
+
+### [Tablet Wireframe](assets/wireframes/layout-tablet.png "Tablet wireframe")
+
+### [Phone Wireframe](wireframes/layout-mobile.png "Phone wireframe")
+
+
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Features
 /////////
 /
 Its all about the User!
