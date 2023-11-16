@@ -88,8 +88,13 @@ a {
   text-decoration: none !important; 
 	display: inline-block; 
   /* color: var(--main-text-color) */
-  color :#000; 
+  color : black; 
 }
+
+#box-scocail {
+  color: var(--main-text-color);
+}
+
 .newlabel {
   padding: 5px;
   font-size: large;
@@ -279,6 +284,7 @@ padding-left: 30px;
   height: 200px;
   align-items: center;
   justify-content: space-around;
+  
 }
 .box-socials {
   display: flex;
@@ -292,6 +298,7 @@ padding-left: 30px;
   align-items: center;
   background-color: var(--accent-color); 
 }
+
 .intro {
   align-items: center;
   font-style: italic;
