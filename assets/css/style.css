@@ -513,6 +513,7 @@ textarea {
     max-width: 125px; /* Maximum width for the image */
     padding: 5px; /* Padding around the image */
   }
+  
   .qr-img {
     width: 45%; /* Set image width to 45% */
   }
@@ -595,117 +596,116 @@ textarea {
     margin: 0; /* Reset margin */
     text-align: left; /* Align text content to the left */
   }
-  
-  /* nav-bar -- responsiveness */
-/* Navbar styling */
-.navbar {
-  opacity: 0.95; /* Set opacity to 95% */
-}
+    
+  /* Navbar styling -- responsiveness */
+  .navbar {
+    opacity: 0.95; /* Set opacity to 95% */
+  }
 
-/* Styling for checkbox and hamburger lines */
-.navbar-container input[type="checkbox"],
-.navbar-container .hamburger-lines {
-  display: block; /* Display as block elements */
-}
+  /* Styling for checkbox and hamburger lines */
+  .navbar-container input[type="checkbox"],
+  .navbar-container .hamburger-lines {
+    display: block; /* Display as block elements */
+  }
 
-/* Navbar container properties */
-.navbar-container {
-  display: block; /* Display as block element */
-  position: relative; /* Set position as relative */
-  height: 66px; /* Set height to 66 pixels */
-}
+  /* Navbar container properties */
+  .navbar-container {
+    display: block; /* Display as block element */
+    position: relative; /* Set position as relative */
+    height: 66px; /* Set height to 66 pixels */
+  }
 
-/* Styling for the checkbox within the navbar container */
-.navbar-container input[type="checkbox"] {
-  position: absolute; /* Position as absolute */
-  display: block; /* Display as block element */
-  height: 32px; /* Set height to 32 pixels */
-  width: 30px; /* Set width to 30 pixels */
-  top: 20px; /* Position from top */
-  left: 20px; /* Position from left */
-  z-index: 5; /* Set stacking order */
-  opacity: 0; /* Set opacity to 0 */
-}
+  /* Styling for the checkbox within the navbar container */
+  .navbar-container input[type="checkbox"] {
+    position: absolute; /* Position as absolute */
+    display: block; /* Display as block element */
+    height: 32px; /* Set height to 32 pixels */
+    width: 30px; /* Set width to 30 pixels */
+    top: 20px; /* Position from top */
+    left: 20px; /* Position from left */
+    z-index: 5; /* Set stacking order */
+    opacity: 0; /* Set opacity to 0 */
+  }
 
-/* Styling for hamburger lines within the navbar container */
-.navbar-container .hamburger-lines {
-  display: block; /* Display as block element */
-  height: 23px; /* Set height to 23 pixels */
-  width: 35px; /* Set width to 35 pixels */
-  position: absolute; /* Position as absolute */
-  top: 17px; /* Position from top */
-  left: 20px; /* Position from left */
-  z-index: 2; /* Set stacking order */
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Arrange as column */
-  justify-content: space-between; /* Space between items */
-}
+  /* Styling for hamburger lines within the navbar container */
+  .navbar-container .hamburger-lines {
+    display: block; /* Display as block element */
+    height: 23px; /* Set height to 23 pixels */
+    width: 35px; /* Set width to 35 pixels */
+    position: absolute; /* Position as absolute */
+    top: 17px; /* Position from top */
+    left: 20px; /* Position from left */
+    z-index: 2; /* Set stacking order */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange as column */
+    justify-content: space-between; /* Space between items */
+  }
 
-/* Styling for the lines in the hamburger icon */
-.navbar-container .hamburger-lines .line {
-  height: 4px; /* Set line height to 4 pixels */
-  width: 100%; /* Set line width to 100% */
-  border-radius: 10px; /* Set border radius */
-  background-color: var(--main-bg-color); /* Use custom background color */
-}
+  /* Styling for the lines in the hamburger icon */
+  .navbar-container .hamburger-lines .line {
+    height: 4px; /* Set line height to 4 pixels */
+    width: 100%; /* Set line width to 100% */
+    border-radius: 10px; /* Set border radius */
+    background-color: var(--main-bg-color); /* Use custom background color */
+  }
 
-/* Animation transitions for hamburger lines */
-.navbar-container .hamburger-lines .line1 {
-  transform-origin: 0% 0%; /* Set transform origin */
-  transition: transform 0.4s ease-in-out; /* Apply transition effect */
-}
+  /* Animation transitions for hamburger lines */
+  .navbar-container .hamburger-lines .line1 {
+    transform-origin: 0% 0%; /* Set transform origin */
+    transition: transform 0.4s ease-in-out; /* Apply transition effect */
+  }
 
-.navbar-container .hamburger-lines .line2 {
-  transition: transform 0.2s ease-in-out; /* Apply transition effect */
-}
+  .navbar-container .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out; /* Apply transition effect */
+  }
 
-.navbar-container .hamburger-lines .line3 {
-  transform-origin: 0% 100%; /* Set transform origin */
-  transition: transform 0.4s ease-in-out; /* Apply transition effect */
-}
+  .navbar-container .hamburger-lines .line3 {
+    transform-origin: 0% 100%; /* Set transform origin */
+    transition: transform 0.4s ease-in-out; /* Apply transition effect */
+  }
 
-/* Styling for the menu items in the navbar */
-.navbar .menu-items {
-  padding-top: 75px; /* Add padding to the top */
-  background: white; /* Set background color to white */
-  height: 100vh; /* Set height to 100% of viewport height */
-  max-width: 225px; /* Set maximum width */
-  transform: translate(-150%); /* Move horizontally */
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Arrange as column */
-  margin-left: -40px; /* Move to the left */
-  padding-left: 40px; /* Add padding to the left */
-  transition: transform 0.5s ease-in-out; /* Apply transition effect */
-  box-shadow: 5px 0px 10px 0px var(--main-bg-color); /* Apply box shadow */
-}
+  /* Styling for the menu items in the navbar */
+  .navbar .menu-items {
+    padding-top: 75px; /* Add padding to the top */
+    background: white; /* Set background color to white */
+    height: 100vh; /* Set height to 100% of viewport height */
+    max-width: 225px; /* Set maximum width */
+    transform: translate(-150%); /* Move horizontally */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange as column */
+    margin-left: -40px; /* Move to the left */
+    padding-left: 40px; /* Add padding to the left */
+    transition: transform 0.5s ease-in-out; /* Apply transition effect */
+    box-shadow: 5px 0px 10px 0px var(--main-bg-color); /* Apply box shadow */
+  }
 
-/* Styling for individual items within the navbar */
-.navbar .menu-items li {
-  margin-bottom: 1.5rem; /* Set margin at the bottom */
-}
+  /* Styling for individual items within the navbar */
+  .navbar .menu-items li {
+    margin-bottom: 1.5rem; /* Set margin at the bottom */
+  }
 
-/* Animation effect when the checkbox is checked */
-.navbar-container input[type="checkbox"]:checked ~ .menu-items {
-  transform: translateX(0); /* Move horizontally */
-}
+  /* Animation effect when the checkbox is checked */
+  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+    transform: translateX(0); /* Move horizontally */
+  }
 
-.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-  transform: rotate(35deg); /* Rotate 35 degrees */
-}
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(35deg); /* Rotate 35 degrees */
+  }
 
-.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-  transform: scaleY(0); /* Set vertical scale to 0 */
-}
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0); /* Set vertical scale to 0 */
+  }
 
-.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-  transform: rotate(-35deg); /* Rotate -35 degrees */
-}
+  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-35deg); /* Rotate -35 degrees */
+  }
 
-/* Styling for the back-to-top button */
-.back-to-top-button {
-  margin: 7px auto; /* Set margins */
-  font-size: medium; /* Set font size to medium */
-  padding: 5px 10px 5px 10px; /* Padding for top, right, bottom, left */
-}
+  /* Styling for the back-to-top button */
+  .back-to-top-button {
+    margin: 7px auto; /* Set margins */
+    font-size: medium; /* Set font size to medium */
+    padding: 5px 10px 5px 10px; /* Padding for top, right, bottom, left */
+  }
 
 }
