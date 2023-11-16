@@ -101,7 +101,7 @@ a {
 }
 
 a:hover {
-  color : var(--secondary-text-color);
+  color : red;
 }
 
 .custom-list1 {
