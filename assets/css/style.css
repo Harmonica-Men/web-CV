@@ -17,6 +17,7 @@
   padding: 0;
   margin: 0;
 }
+/* general settings */
 body {
   margin: 0;
   text-align: center;
@@ -27,6 +28,7 @@ body {
   background: #000;
   background-image: url("../images/bg.webp") 
 }
+/* Heading styles */
 h1 {
   color: var(--main-text-color); 
   padding: 5px;
@@ -50,6 +52,7 @@ h3 {
   font-weight: bolder;
   padding-bottom: 10px;
 }
+/* style Horizontal line */
 hr {
   margin: 0 auto;
   border-color: var(--main-text-color);
@@ -58,6 +61,7 @@ hr {
   border-bottom: none;
   width: 45%; 
 }
+/* style lists */
 ol {
   text-align: left;
   font-weight: bolder;
@@ -78,6 +82,7 @@ ul {
   text-align: left; 
   font-weight: bolder;
 }
+/* style attribute */
 a {
   text-decoration: none; 
   color : black; 
@@ -97,6 +102,7 @@ a:hover {
 .custom-list2 {
   padding-left: 30px;
 }
+/* body styling top */
 .top-container {
   margin: 0 auto;
   text-align: center;
@@ -104,454 +110,602 @@ a:hover {
   padding-top: 75px;
   padding-bottom: 40px;
 }
+/* Styles for the middle container */
 .middle-container {
-  margin: 0 auto;
-  width: 45%;
-  text-align: center;
-  padding: 10px;
-}
-#personalia {
-  padding-bottom: 10px;
-}
-.personalia {
-  margin: 0 auto;
-  width: 66%;
-  align-items: center;
-}
-.profile {
-  padding-bottom: 0px;
-}
-.sub {
-  margin: 0 auto;
-  width: 75%;
-  text-align: left;
-  padding: 20px;
-}
-.contact {    
-    margin: 0 auto; 
-    text-align: center;
-}
-.container-lang {
-  width: 25%;
-  margin: 0 auto;
-}
-.contact-box {
-    width: 45%;
-    margin: 0 auto; 
-    text-align: center;
-    background-color: var(--main-bg-color);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.menu {
-  font-size: large;
-}
-.checkbox-container {
-  display: flex;
-  align-items: center;
-}
-.checkbox-input {
-  margin-right: 8px; 
-}
-.checkbox-label {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  color: black;
-   visibility: hidden;
-}
-.table-container {
-  overflow: auto;
-} 
-.footer {
-  width: auto;
-  height: auto;
-  margin: 0 auto; 
-  text-align: center;
-  padding: 10px;
-  background-color: var(--main-bg-color); 
-}
-.back-to-top-button {
-  margin: 15px auto; 
-  text-align: center;
-  background: var(--accent-color);
-  width: fit-content;
-  border-radius: 7px;
-  border: solid var(--border-color);
-  border-style: ridge;
-  font-family: 'Montserrat', sans-serif;
-  font-size: large;
-  font-weight: bolder;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
- }
- .back-to-top-button:hover .a {
-   color: var(--main-text-color); 
- }
-.pro {
-  text-decoration: underline;
-}
-.elon-img {
-  height: auto;    
-  width: 100%; 
-  max-width: 333px; 
-  padding: 15px;  
-}
-.qr-img {
-  height: auto;    
-  width: 100%;     
-  max-width: 255px; 
-  padding: 15px;  
-}
-.bg-img {
-  width: 99%;
-}
-.label {
-  text-align: center;
-  display: block;
-}
-.copyright {
-  font-size: 1.5rem;
-  padding: 20px 0;
-  padding-left: 20px;
-}
-.container-strengths {
-  margin: 0 auto;
-  display: flex;
-  flex-direction:column; 
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  height: auto;
-  row-gap: 25px;
-  column-gap: 25px;
-}
-.box-strengths {
-  width: 45%; 
-  height: auto;
-  background-color: var(--main-bg-color); 
-  text-align: center;
-  border-radius: 7px;
-  border: solid var(--border-color);
-  border-style: ridge;
-  padding: 20px;
-}
-#box-strength-1 { 
-  text-align: right; 
-  margin-right: auto; 
-}
-#box-strength-2 {
-  margin: 0; 
-}
-#box-strength-3 {
-  text-align: left; 
-  margin-left: auto; 
-}
-.table {
-  display: inline-block; 
-}
-.table th, .table td {
-  text-align: center;
-  padding: 12px;  padding: 5px;
-}
-.container-socials {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 200px;
-  align-items: center;
-  justify-content: space-around;
-  
-}
-.box-socials {
-  display: flex;
-  width: 80px; 
-  height: 80px;
-  font-size: 3rem;
-  border: solid var(--border-color);
-  text-align: center;
-  border-radius: 15px;
-  border-style: ridge;
-  justify-content: center;
-  align-items: center;
-  background: var(--main-bg-color);
-  background-color: var(--main-bg-color); 
+  margin: 0 auto; /* Center the container horizontally */
+  width: 45%; /* Set the width */
+  text-align: center; /* Center text inside the container */
+  padding: 10px; /* Add padding */
 }
 
+/* Styles for the '#personalia' element */
+#personalia {
+  padding-bottom: 10px; /* Add bottom padding */
+}
+
+/* Styles for the 'personalia' class */
+.personalia {
+  margin: 0 auto; /* Center the element */
+  width: 66%; /* Set width */
+  align-items: center; /* Center the child elements vertically */
+}
+
+/* Styles for the 'profile' class */
+.profile {
+  padding-bottom: 0px; /* Remove bottom padding */
+}
+
+/* Styles for the 'sub' class */
+.sub {
+  margin: 0 auto; /* Center the element */
+  width: 75%; /* Set width */
+  text-align: left; /* Align text to the left */
+  padding: 20px; /* Add padding */
+}
+
+/* Styles for the 'contact' class */
+.contact {    
+  margin: 0 auto; /* Center the element */
+  text-align: center; /* Center text */
+}
+
+/* Styles for the 'container-lang' class */
+.container-lang {
+  width: 25%; /* Set width */
+  margin: 0 auto; /* Center the element */
+}
+
+/* Styles for the 'contact-box' class */
+.contact-box {
+  width: 45%; /* Set width */
+  margin: 0 auto; /* Center the element */
+  text-align: center; /* Center text */
+  background-color: var(--main-bg-color); /* Set background color */
+  padding-top: 20px; /* Add top padding */
+  padding-bottom: 20px; /* Add bottom padding */
+}
+
+/* Styles for the 'menu' class */
+.menu {
+  font-size: large; /* Set font size */
+}
+
+
+/* Styles for checkbox container */
+.checkbox-container {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+/* Styles for checkbox input */
+.checkbox-input {
+  margin-right: 8px; /* Add right margin */
+}
+
+/* Styles for checkbox label */
+.checkbox-label {
+  font-family: Arial, sans-serif; /* Set font family */
+  font-size: 14px; /* Set font size */
+  color: black; /* Set text color */
+  visibility: hidden; /* Initially hide the label */
+}
+
+/* Styles for table container */
+.table-container {
+  overflow: auto; /* Enable horizontal scrolling */
+}
+
+/* Styles for footer */
+.footer {
+  width: auto; /* Auto width */
+  height: auto; /* Auto height */
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Center text */
+  padding: 10px; /* Add padding */
+  background-color: var(--main-bg-color); /* Set background color */
+}
+
+/* Styles for back-to-top-button */
+.back-to-top-button {
+  margin: 15px auto; /* Center the button */
+  text-align: center; /* Center text */
+  background: var(--accent-color); /* Set background color */
+  width: fit-content; /* Fit width to content */
+  border-radius: 7px; /* Add border radius */
+  border: solid var(--border-color); /* Set border */
+  border-style: ridge; /* Ridge border style */
+  font-family: 'Montserrat', sans-serif; /* Set font family */
+  font-size: large; /* Set font size */
+  font-weight: bolder; /* Set font weight */
+  padding: 10px 20px 10px 20px; /* Add padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styles for back-to-top-button hover state */
+.back-to-top-button:hover .a {
+  color: var(--main-text-color); /* Change text color on hover */
+}
+
+/* Style for text with underline */
+.pro {
+  text-decoration: underline; /* Add underline to text */
+}
+
+/* Styles for images */
+.elon-img {
+  height: auto; /* Automatically adjust height */
+  width: 100%; /* Full width */
+  max-width: 333px; /* Maximum width */
+  padding: 15px; /* Add padding */
+}
+
+.qr-img {
+  height: auto; /* Automatically adjust height */
+  width: 100%; /* Full width */
+  max-width: 255px; /* Maximum width */
+  padding: 15px; /* Add padding */
+}
+
+/* Style for background image */
+.bg-img {
+  width: 99%; /* Set width */
+}
+
+/* Styles for label */
+.label {
+  text-align: center; /* Center align text */
+  display: block; /* Display as block element */
+}
+
+/* Styles for copyright text */
+.copyright {
+  font-size: 1.5rem; /* Set font size */
+  padding: 20px 0; /* Add padding */
+  padding-left: 20px; /* Add left padding */
+}
+
+/* Styles for container of strengths */
+.container-strengths {
+  margin: 0 auto; /* Center horizontally */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Set column layout */
+  align-items: center; /* Center align items */
+  justify-content: center; /* Center justify content */
+  width: 80%; /* Set width */
+  height: auto; /* Auto height */
+  row-gap: 25px; /* Add gap between rows */
+  column-gap: 25px; /* Add gap between columns */
+}
+
+/* Styles for individual strength boxes */
+.box-strengths {
+  width: 45%; /* Set width */
+  height: auto; /* Auto height */
+  background-color: var(--main-bg-color); /* Set background color */
+  text-align: center; /* Center align text */
+  border-radius: 7px; /* Add border radius */
+  border: solid var(--border-color); /* Set border */
+  border-style: ridge; /* Ridge border style */
+  padding: 20px; /* Add padding */
+}
+
+/* Styles for specific strength boxes */
+#box-strength-1 { 
+  text-align: right; /* Align text to the right */
+  margin-right: auto; /* Set right margin automatically */
+}
+
+#box-strength-2 {
+  margin: 0; /* Reset margins */
+}
+
+#box-strength-3 {
+  text-align: left; /* Align text to the left */
+  margin-left: auto; /* Set left margin automatically */
+}
+
+/* Styles for tables */
+.table {
+  display: inline-block; /* Display as inline-block */
+}
+
+.table th, .table td {
+  text-align: center; /* Center align text */
+  padding: 12px; /* Add padding */
+  padding: 5px; /* Overriding padding mistakenly added twice */
+}
+
+/* Styles for container of social elements */
+.container-socials {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Arrange in a row */
+  flex-wrap: wrap; /* Allow wrapping */
+  height: 200px; /* Set height */
+  align-items: center; /* Align items */
+  justify-content: space-around; /* Spread items */
+}
+
+/* Styles for individual social boxes */
+.box-socials {
+  display: flex; /* Use flexbox */
+  width: 80px; /* Set width */
+  height: 80px; /* Set height */
+  font-size: 3rem; /* Set font size */
+  border: solid var(--border-color); /* Set border */
+  text-align: center; /* Center align text */
+  border-radius: 15px; /* Add border radius */
+  border-style: ridge; /* Ridge border style */
+  justify-content: center; /* Center justify content */
+  align-items: center; /* Align items */
+  background: var(--main-bg-color); /* Set background color */
+  background-color: var(--main-bg-color); /* Redundant background color */
+}
+
+/* Styling for introduction section */
 .intro {
-  align-items: center;
-  font-style: italic;
+  align-items: center; /* Align items */
+  font-style: italic; /* Use italic font style */
 }
+
+/* Styles for corners */
 .corners {
-  border-radius: 7px;
-  border: solid var(--border-color);
-  border-style: ridge;
-  background-color: var(--main-bg-color);
+  border-radius: 7px; /* Add border radius */
+  border: solid var(--border-color); /* Set border */
+  border-style: ridge; /* Ridge border style */
+  background-color: var(--main-bg-color); /* Set background color */
 }
+
+/* Styling for end section */
 #end {
-  font-weight: bold;
-  height: auto;
+  font-weight: bold; /* Set font weight */
+  height: auto; /* Auto height */
 }
+
+/* Styles for specific skill boxes */
 #box-skill-1 { 
-  text-align: right; 
-  margin-right: 300px; 
+  text-align: right; /* Align text to the right */
+  margin-right: 300px; /* Set specific right margin */
 }
+
 #box-skill-2 {
-  margin: 0; 
+  margin: 0; /* Reset margins */
 }
+
 #box-skill-3 {
-  text-align: left; 
-  margin-left: 300px; 
+  text-align: left; /* Align text to the left */
+  margin-left: 300px; /* Set specific left margin */
 }
+
+
+
+
+
+
+
+
+/* Styling for textarea */
 textarea {
-  resize: none;
-  width: 80%; 
-  height: 5em;
+  resize: none; /* Prevent resizing */
+  width: 80%; /* Set width */
+  height: 5em; /* Set height */
 }
+
+/* Styles for main container */
 .container-main {
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;  
+  margin: 0 auto; /* Center horizontally */
+  justify-content: center; /* Center content */
+  align-items: center; /* Align items */
 }
-.container-WorkExperience
-{ 
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;  
+
+/* Styles for container of Work Experience */
+.container-WorkExperience { 
+  margin: 0 auto; /* Center horizontally */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center content */
 }
+
+/* Styles for columns in Work Experience */
 .column-WorkExperience {
-  flex: 0 0 70%;
-  row-gap: 10px;
-  box-sizing: border-box;
-  padding: 0px;
+  flex: 0 0 70%; /* Set flex basis */
+  row-gap: 10px; /* Set gap between rows */
+  box-sizing: border-box; /* Include padding in width/height */
+  padding: 0px; /* Reset padding */
 }
+
+/* Styles for individual boxes in Work Experience */
 .box-WorkExperience {
- 
-  padding: 20px; 
-  margin: 10px;
-  
-  margin-bottom: 0px; 
-  
-  text-align: left;
+  padding: 20px; /* Add padding */
+  margin: 10px; /* Add margin */
+  margin-bottom: 0px; /* Remove bottom margin */
+  text-align: left; /* Align text to the left */
 }
+
+/* Styles for submit button */
 .submit-button {
-  background: var(--accent-color);  
-  color: black;
-  width: fit-content;
-  border-radius: 7px;
-  border: solid var(--border-color); 
-  border-style: ridge;
-  font-family: 'Montserrat', sans-serif;
-  font-size: large;
-  font-weight: bolder;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+  background: var(--accent-color); /* Set background color */
+  color: black; /* Set text color */
+  width: fit-content; /* Fit width to content */
+  border-radius: 7px; /* Add border radius */
+  border: solid var(--border-color); /* Set border */
+  border-style: ridge; /* Ridge border style */
+  font-family: 'Montserrat', sans-serif; /* Set font */
+  font-size: large; /* Set font size */
+  font-weight: bolder; /* Set font weight */
+  padding: 10px 20px 10px 20px; /* Set padding */
+  text-decoration: none; /* Remove default text decoration */
 }
+
+/* Styles on hover for submit button */
 .submit-button:hover {
-  position: relative;
-  color: var(--main-text-color);
-  text-decoration: none;
+  position: relative; /* Change position */
+  color: var(--main-text-color); /* Change text color on hover */
+  text-decoration: none; /* Remove default text decoration */
 }
+
+/* Styles for navbar elements */
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
-  display: none;
+  display: none; /* Hide checkbox and hamburger lines */
 }
+
+/* Styles for navbar container */
 .navbar {
-  box-shadow: 0px 5px 10px 0px var(--secondary-text-color);
-  position: fixed;
-  width: 100%;
-  background-color: var(--secondary-text-color); 
-  color: #000;
-  opacity: 0.95;
-  height: 60px;
-  z-index: 10; 
+  box-shadow: 0px 5px 10px 0px var(--secondary-text-color); /* Add box shadow */
+  position: fixed; /* Set position as fixed */
+  width: 100%; /* Set width */
+  background-color: var(--secondary-text-color); /* Set background color */
+  color: #000; /* Set text color */
+  opacity: 0.95; /* Set opacity */
+  height: 60px; /* Set height */
+  z-index: 10; /* Set stacking order */
 }
+
+/* Styles for items in navbar */
 .navbar-container {
-  display: flex;
-  font-size: larger;
-  justify-content: space-between; 
-  max-width: 1200px;
-  width: 99%; 
+  display: flex; /* Use flexbox */
+  font-size: larger; /* Set font size */
+  justify-content: space-between; /* Spread items */
+  max-width: 1200px; /* Set maximum width */
+  width: 99%; /* Set width */
 }
+
+/* Styles for list items in navbar */
 .menu-items li {
-  list-style: none;
-  justify-content:space-around;
-  margin-left: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.15rem;
+  list-style: none; /* Remove default list style */
+  justify-content: space-around; /* Spread items */
+  margin-left: 1.5rem; /* Set left margin */
+  margin-bottom: 0.5rem; /* Set bottom margin */
+  font-size: 1.15rem; /* Set font size */
 }
+
+/* Styling for menu items in navbar */
 .menu-items {
-  order: 2;
-  display: flex;
-  justify-content:space-around;
-  transition: color 0.3s ease-in-out;
+  order: 2; /* Set order */
+  display: flex; /* Use flexbox */
+  justify-content: space-around; /* Spread items */
+  transition: color 0.3s ease-in-out; /* Add transition */
 }
+
+/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
+  /* Styles for headings, images, containers, and navigation for smaller screens */
+  /* ... (responsive styles) ... */
+  /* Styling for various heading sizes */
   h1 {
-    font-size: 4rem;
+    font-size: 4rem; /* Large font size for H1 */
   }
   h2 {
-    font-size: 2.75rem;
+    font-size: 2.75rem; /* Moderately large font size for H2 */
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Medium font size for H3 */
   }
+
+  /* Adjustments for textarea dimensions */
   textarea {
-    width: 80%; 
-    height: 5em;
+    width: 80%; /* Set textarea width to 80% */
+    height: 5em; /* Set textarea height to 5em */
   }
-  .fve-img {
-    width: 99%; 
-    max-width: 125px;
-    padding: 5px;
+
+  /* Styling for specific images */
+  .elon-img {
+    width: 99%; /* Set image width to 99% */
+    max-width: 125px; /* Maximum width for the image */
+    padding: 5px; /* Padding around the image */
   }
   .qr-img {
-    width: 45%;
+    width: 45%; /* Set image width to 45% */
   }
+
+  /* Width adjustments for specific containers */
   .middle-container {
-    width: 90%;
+    width: 90%; /* Set width to 90% */
   }
   .sub {
-    width: 90%;
+    width: 90%; /* Set width to 90% */
   }
-  .column-WorkExperience {
-    flex: 0 0 90%;
-  }
-  .container-socials {
-    flex-direction: row;  
-    flex-wrap: wrap;
-    justify-content: space-evenly; 
-    align-items: center;
-    height: 75px;
-  }
-  .box-socials {
-    width: 50px; 
-    height: 50px; 
-    text-align: center;     
-    border-radius: 7px;
-    padding: 10px;
-    font-size: 1.5rem;
-  }
-  .container-strengths {
-    margin: 0;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: auto;
-  }
-  .box-strengths {
-    width: 90%; 
-    height: auto;
-    text-align: left;
-  }
-  .contact-box {    
-    width: 90%;
-  }
-  .submit-button {
-    font-size: medium;
-    padding: 5px 10px 5px 10px;
-  }
-  .submit-button:hover {
-    position: relative;
-    text-decoration: none;
+  .contact-box {
+    width: 90%; /* Set width to 90% */
   }
   .container-lang {
-    width: 90%; 
+    width: 90%; /* Set width to 90% */
   }
-  #box-strength-1 {
-    margin: 0;
-    text-align: left;
+
+  /* Flexbox adjustments for Work Experience column */
+  .column-WorkExperience {
+    flex: 0 0 90%; /* Set flex basis to 90% */
   }
-  #box-strength-2 {
-    margin: 0;
-    text-align: left; 
+
+  /* Flexbox adjustments for social media container */
+  .container-socials {
+    flex-direction: row; /* Arrange items in a row */
+    flex-wrap: wrap; /* Enable wrapping */
+    justify-content: space-evenly; /* Space items evenly */
+    align-items: center; /* Center-align items vertically */
+    height: 75px; /* Set a fixed height of 75px */
   }
+
+  /* Styling for social media boxes */
+  .box-socials {
+    width: 50px; /* Set box width to 50px */
+    height: 50px; /* Set box height to 50px */
+    text-align: center; /* Center-align text */
+    border-radius: 7px; /* Apply border radius */
+    padding: 10px; /* Padding inside the box */
+    font-size: 1.5rem; /* Font size for content */
+  }
+  
+  .container-strengths {
+    margin: 0; /* Reset margin */
+    text-align: center; /* Center-align text content */
+    justify-content: center; /* Center items along the main axis */
+    align-items: center; /* Center items along the cross axis */
+    height: auto; /* Allow container height to adjust based on content */
+    width: auto; /* Allow container width to adjust based on content */
+  }
+  
+  .box-strengths {
+    width: 90%; /* Set width to 90% of its parent container */
+    height: auto; /* Allow height to adjust based on content */
+    text-align: left; /* Align text content to the left */
+  }
+  
+  .contact-box {    
+    width: 90%; /* Set width to 90% */
+  }
+  
+  .submit-button {
+    font-size: medium; /* Set font size to medium */
+    padding: 5px 10px 5px 10px; /* Padding for top, right, bottom, left */
+  }
+  
+  .submit-button:hover {
+    position: relative; /* Change position on hover */
+    text-decoration: none; /* Remove default text decoration */
+  }
+  
+  .container-lang {
+    width: 90%; /* Set width to 90% */
+  }
+  
+  /* Specific styling for strength boxes */
+  #box-strength-1,
+  #box-strength-2,
   #box-strength-3 {
-    margin: 0;
-    text-align: left;
+    margin: 0; /* Reset margin */
+    text-align: left; /* Align text content to the left */
   }
-  .navbar {
-    opacity: 0.95;
-  }
-  .navbar-container input[type="checkbox"],
-  .navbar-container .hamburger-lines {
-    display: block;
-  }
-  .navbar-container {
-    display: block;
-    position: relative;
-    height: 66px;
-  }
-  .navbar-container input[type="checkbox"] {
-    position: absolute;
-    display: block;
-    height: 32px;
-    width: 30px;
-    top: 20px;
-    left: 20px;
-    z-index: 5; 
-    opacity: 0;   
-  }
-  .navbar-container .hamburger-lines {
-    display: block;
-    height: 23px;
-    width: 35px;
-    position: absolute;
-    top: 17px;
-    left: 20px;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .navbar-container .hamburger-lines .line {
-    height: 4px;
-    width: 100%;
-    border-radius: 10px;
-    background-color: var(--main-bg-color);
-  }
-  .navbar-container .hamburger-lines .line1 {
-    transform-origin: 0% 0%;
-    transition: transform 0.4s ease-in-out;
-  }
-  .navbar-container .hamburger-lines .line2 {
-    transition: transform 0.2s ease-in-out;
-  }
-  .navbar-container .hamburger-lines .line3 {
-    transform-origin: 0% 100%;
-    transition: transform 0.4s ease-in-out;
-  }
-  .navbar .menu-items {
-    padding-top: 75px;
-    background: white;     
-    height: 100vh;
-    max-width: 225px;
-    transform: translate(-150%);
-    display: flex;
-    flex-direction: column;
-    margin-left: -40px;
-    padding-left: 40px;
-    transition: transform 0.5s ease-in-out;
-    box-shadow: 5px 0px 10px 0px var(--main-bg-color);
-  }
-  .navbar .menu-items li {
-    margin-bottom: 1.5rem;
-  }
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(0);
-  }
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-    transform: rotate(35deg);
-  }
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-    transform: scaleY(0);
-  }
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-    transform: rotate(-35deg);
-  }
-  .back-to-top-button {
-    margin: 7px auto; 
-    font-size: medium;
-    padding: 5px 10px 5px 10px;   
-   }  
+  
+  /* nav-bar -- responsiveness */
+/* Navbar styling */
+.navbar {
+  opacity: 0.95; /* Set opacity to 95% */
+}
+
+/* Styling for checkbox and hamburger lines */
+.navbar-container input[type="checkbox"],
+.navbar-container .hamburger-lines {
+  display: block; /* Display as block elements */
+}
+
+/* Navbar container properties */
+.navbar-container {
+  display: block; /* Display as block element */
+  position: relative; /* Set position as relative */
+  height: 66px; /* Set height to 66 pixels */
+}
+
+/* Styling for the checkbox within the navbar container */
+.navbar-container input[type="checkbox"] {
+  position: absolute; /* Position as absolute */
+  display: block; /* Display as block element */
+  height: 32px; /* Set height to 32 pixels */
+  width: 30px; /* Set width to 30 pixels */
+  top: 20px; /* Position from top */
+  left: 20px; /* Position from left */
+  z-index: 5; /* Set stacking order */
+  opacity: 0; /* Set opacity to 0 */
+}
+
+/* Styling for hamburger lines within the navbar container */
+.navbar-container .hamburger-lines {
+  display: block; /* Display as block element */
+  height: 23px; /* Set height to 23 pixels */
+  width: 35px; /* Set width to 35 pixels */
+  position: absolute; /* Position as absolute */
+  top: 17px; /* Position from top */
+  left: 20px; /* Position from left */
+  z-index: 2; /* Set stacking order */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange as column */
+  justify-content: space-between; /* Space between items */
+}
+
+/* Styling for the lines in the hamburger icon */
+.navbar-container .hamburger-lines .line {
+  height: 4px; /* Set line height to 4 pixels */
+  width: 100%; /* Set line width to 100% */
+  border-radius: 10px; /* Set border radius */
+  background-color: var(--main-bg-color); /* Use custom background color */
+}
+
+/* Animation transitions for hamburger lines */
+.navbar-container .hamburger-lines .line1 {
+  transform-origin: 0% 0%; /* Set transform origin */
+  transition: transform 0.4s ease-in-out; /* Apply transition effect */
+}
+
+.navbar-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out; /* Apply transition effect */
+}
+
+.navbar-container .hamburger-lines .line3 {
+  transform-origin: 0% 100%; /* Set transform origin */
+  transition: transform 0.4s ease-in-out; /* Apply transition effect */
+}
+
+/* Styling for the menu items in the navbar */
+.navbar .menu-items {
+  padding-top: 75px; /* Add padding to the top */
+  background: white; /* Set background color to white */
+  height: 100vh; /* Set height to 100% of viewport height */
+  max-width: 225px; /* Set maximum width */
+  transform: translate(-150%); /* Move horizontally */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange as column */
+  margin-left: -40px; /* Move to the left */
+  padding-left: 40px; /* Add padding to the left */
+  transition: transform 0.5s ease-in-out; /* Apply transition effect */
+  box-shadow: 5px 0px 10px 0px var(--main-bg-color); /* Apply box shadow */
+}
+
+/* Styling for individual items within the navbar */
+.navbar .menu-items li {
+  margin-bottom: 1.5rem; /* Set margin at the bottom */
+}
+
+/* Animation effect when the checkbox is checked */
+.navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  transform: translateX(0); /* Move horizontally */
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(35deg); /* Rotate 35 degrees */
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0); /* Set vertical scale to 0 */
+}
+
+.navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-35deg); /* Rotate -35 degrees */
+}
+
+/* Styling for the back-to-top button */
+.back-to-top-button {
+  margin: 7px auto; /* Set margins */
+  font-size: medium; /* Set font size to medium */
+  padding: 5px 10px 5px 10px; /* Padding for top, right, bottom, left */
+}
+
 }
