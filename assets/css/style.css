@@ -60,7 +60,7 @@ hr {
   width: 45%; 
 }
 ol {
-  text-align: center;
+  text-align: left;
   /* list-style: none; */
   font-weight: bolder;
   padding-top: 10px;
@@ -74,13 +74,9 @@ li {
   font-weight: normal; 
   text-align: left;
 }
-
-
-/* #center {
+#text-center {
   text-align: center;
 }
-
-*/
 ul {
   padding-top: 5px;
   text-align: left; 
@@ -103,11 +99,17 @@ a:hover {
   color : red;
 }
 
-.custom-list {
+.custom-list1 {
   padding-left: 20px; 
   /* padding-bottom: 10px; */
 }
 
+.custom-list2 {
+  
+  padding: 10px;
+  padding-left: 20px; 
+  /* padding-bottom: 10px; */
+}
 
 .top-container {
   margin: 0 auto;
@@ -147,6 +149,7 @@ a:hover {
 .container-lang {
   width: 25%; 
   margin: 0 auto;  
+  background-color: yellow;
 }
 .contact-box {
     width: 45%;
