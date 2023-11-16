@@ -6,7 +6,7 @@
 
 :root {
   --main-text-color: #FDEDED; 
-  --secondary-text-color: E6E6E6;   
+  --secondary-text-color: #E6E6E6;   
   --accent-color: #749BC2;  
   --main-bg-color:  #2e6284;
   --border-color: #133a54; 
@@ -33,6 +33,7 @@ body {
 }
 h1 {
   color: var(--main-text-color); 
+  padding: 5px;
   font-size: 5.725rem;
   margin: 0;
   font-family: 'Sacramento', cursive;
@@ -43,6 +44,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   font-weight: bolder;
+  padding: 5px;
   padding-bottom: 10px;  
 }
 h3 {
@@ -60,10 +62,11 @@ hr {
   width: 45%; 
 }
 ol {
-  text-align: left;
+  text-align: center;
   /* list-style: none; */
   font-weight: bolder;
- 
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 li {
   /* margin: 10px 10px 10px 40px;*/
@@ -118,8 +121,8 @@ a:hover {
 }
 .sub {
   margin: 0 auto;
-  width: 75%; 
-  text-align: center;  
+  width: 75%;
+  text-align: left;
   padding: 10px;
 }
 .contact {    
@@ -128,8 +131,7 @@ a:hover {
 }
 .container-lang {
   width: 45%; 
-  margin: 0 auto; 
-  background-color: var(--main-bg-color); 
+  margin: 0 auto;  
 }
 .contact-box {
     width: 45%;
@@ -273,10 +275,10 @@ a:hover {
   font-style: italic;
 }
 .corners {
-  border-radius: 7px; 
-  border: solid var(--border-color); 
-  border-style: ridge; 
-  background-color: var(--main-bg-color); 
+  border-radius: 7px;
+  border: solid var(--border-color);
+  border-style: ridge;
+  background-color: var(--main-bg-color);
 }
 #end {
   font-weight: bold;
