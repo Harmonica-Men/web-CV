@@ -84,16 +84,15 @@ ul {
 	/* list-style: none; */
   font-weight: bolder;
 }
+
 a {
-  text-decoration: none !important; 
-	display: inline-block; 
+  text-decoration: none; /* !important; */
+/*	display: inline-block;  */
   /* color: var(--main-text-color) */
   color : black; 
 }
 
-#box-scocail {
-  color: var(--main-text-color);
-}
+
 
 .newlabel {
   padding: 5px;
@@ -102,7 +101,7 @@ a {
 }
 
 a:hover {
-  color : red;
+  color : var(--secondary-text-color);
 }
 
 .custom-list1 {
@@ -209,7 +208,7 @@ padding-left: 30px;
   text-decoration: none;
  }
  .back-to-top-button:hover .a {
-   color: red; 
+   color: var(--main-text-color); 
  }
 .pro {
   text-decoration: underline;
@@ -294,9 +293,11 @@ padding-left: 30px;
   border: solid var(--border-color);
   text-align: center;
   border-radius: 15px;
+  border-style: ridge;
   justify-content: center;
   align-items: center;
-  background-color: var(--accent-color); 
+  background: var(--main-bg-color);
+  background-color: var(--main-bg-color); 
 }
 
 .intro {
@@ -370,7 +371,7 @@ textarea {
 }
 .submit-button:hover {
   position: relative;
-  color: red;
+  color: var(--main-text-color);
   text-decoration: none;
 }
 .navbar input[type="checkbox"],
