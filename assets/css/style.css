@@ -106,9 +106,9 @@ a:hover {
 
 .custom-list2 {
   
-padding: 10px;
+/* padding: 10px; */
   
-padding-left: 40px;
+padding-left: 30px;
   
 /* padding-bottom: 10px; */
 }
@@ -142,7 +142,7 @@ padding-left: 40px;
   margin: 0 auto;
   width: 75%;
   text-align: left;
-  padding: 10px;
+  padding: 20px;
 }
 .contact {    
     margin: 0 auto; 
@@ -207,7 +207,7 @@ padding-left: 40px;
 .pro {
   text-decoration: underline;
 }
-.fve-img {
+.elon-img {
   height: auto;    
   width: 100%; 
   max-width: 333px; 
