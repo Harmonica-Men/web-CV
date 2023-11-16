@@ -115,121 +115,221 @@ The wireframes are below:
 ### [Phone Wireframe](assets/wireframes/layout-smart.png "Phone wireframe")
 
 
+[Back to Top](#table-of-contents)
+
+
 &nbsp;
 [Back to Top]
 &nbsp;
 
 # Features
-/////////
-/
-Its all about the User!
 
-A web CV, or web-based curriculum vitae, serves the same purpose as a traditional paper-based curriculum vitae (or 'CV' for short) but is presented online. It is essentially a digital representation of a person's professional and academic background, skills, achievements, and work experience. The primary purpose of a web CV is to showcase an individual's qualifications and accomplishments to potential employers, clients, or collaborators in a format that is easily accessible through the internet.
+## Navigation Bar 
 
-This site is intended for future employers or recruiters and should be a kind of calling card with direct access to all necessary information.
+The responsive navigation bar remains fixed at the top, offering users effortless navigation throughout the website and ensuring an enhanced user experience.
+   *  Desktop view > 768px
 
-![Alt text](wireframes/web-cv-responsiveness.png)
+screenshot navbar desktop
 
-## Features
+
+   * The utilization of a red hover effect serves to visually emphasize active, clicked, and hovered links, providing users with clear visual cues for their interactions with these elements.
+
+screenshot navbar desktop hover  
+
+   * small devices < = 768px
+   * When the screen width hits 768 pixels or less, the navigation bar switches to a hamburger-style menu, ensuring responsiveness across various devices.
+
+screenshot gsm
+
+   * When pressed, it opens the main menu with all available links.
+
+screenshot gsm hover
+   * The code for the Hamburger Menu I used from
+   * I has nice feature build in where burger seamlessly transition in to a cross element.
+
+## Landing Page
+   * Header - Landing Page
+      * Because this is a 'web-CV' the QR code is a direct eyecatcher and gives an innovative idea to life whit a direct link to my personal website.
+      * The color scheme consists of four colors and two additional colors for underling and highlighting. To make the colors match the criteria of Lighthouse some tweaking was necessary.
   
-1. Navigation   
-   * A navigation bar, often abbreviated as "nav bar," serves as a user interface element on a website or application. Its primary purpose is to provide a structured and easily accessible way for users to navigate through the different sections or pages of a website. 
-   * The navigation bar is located at the top of a webpage or in a prominent position, and it contains links or buttons that direct users to various parts of the site.
-   * There is also a "Back To Top" button included in each section of de webpage, so the user has easy access to go back to the top and access the "nav bar" again.   
-  
-![Alt text](wireframes/navbar.png)
-
-1. Header - Landing Page
-   * Because this is a 'web-CV' the QR code is a direct eyecatcher and gives an innovative idea to life whit a direct link to my personal website.
-   * The color scheme consists of four colors and two additional colors for underling and highlighting. To make the colors match the criteria of Lighthouse some tweaking was necessary.
-      
-      ![Alt text](wireframes/color-hunt.png) Source: Color-Hunt
-      
-   * The background image matches the chosen color scheme of five colors.
-  
-     ![Alt text](wireframes/bg.jpg)
-
-   * This image can be found on the Pixels: Pexels offers a vast library of free stock photos Free and Resources.
-   * A sober but effective use of the screen welcomes the user to further investigation and creates curiosity.
-  
-2. Section - Personalia
-   * You have only one shot to make a good impression, so saying "Hello" to somebody is natural and convenient, the black and white picture comes in a better contrast with the rest of the color scheme.
-   * To diversify myself I included a quote of Linus Trovals.
-   * For most requiters to have immediately access to contact information is crucial.
-  
-      ![Alt text](wireframes/personalia.png)
+screenshot header qr-code
  
-3. Sections
-   * The 'web-CV' has all the traditional elements included as paper based like version. In total there nine section. 
+   * Section - Personalia
+     * You have only one shot to make a good impression, so saying "Hello" to somebody is natural and convenient, the black and white picture comes in a better contrast with the rest of the color scheme.
+     * To diversify myself I included a quote of Linus Trovals.
+     * For most requiters to have immediately access to contact information is crucial.
 
-4. Section - My Strenghts
-   * A first approach for demonstration of responsiveness, the hole webpage is built from the middle of the screen and is evenly distributed except for the 'navbar' to give a more relax user experience where a lot reading needed. 
-   * The division of three blocks from left to right that give more dynamic into the webpage.
- 
-   ![Alt text](wireframes/Strenghts.png)
- 
-5. Sections - Competenties & Languages
-   * Here you can see that I used a lot of 'Font Awesome Icons', these are open source and free to use.  
-   * Using a table to structure these Icons can be a little bit tricky when you go to very small sizes in responsiveness.
+screenshot personalia
 
-       ![Alt text](wireframes/table.png)
+3 views
 
-   * Therefor its not recommend to make large or big table on dynamic webpages.
+  * Section - My Strenghts
+     * A first approach for demonstration of responsiveness, the hole webpage is built from the middle of the screen and is evenly distributed except for the 'navbar' to give a more relax user experience where a lot reading needed. 
+     * The division of three blocks from left to right that give more dynamic into the webpage.
 
-6. Section - Get In Touch
-   * A basic contact form to send a note for whom a interested are on further notice.
+screenshot strenghts
+2 views
 
-      ![Alt text](wireframes/contact.png)
+  * section - Summary 
+     * Here is a small biography of the sollicitant, gives a general impression.
 
-   * When data filled in, there will be a responds of the request code demonstrating its functionality.
- 
-7. Section - Socails
-    * In a curriculum vitae the importance of social media is in some cases very beneficial. Every social link opens in a separate webpage.
-    * To make the icons more visit the icons highlight when hover over it, this is same for the 'navbar' to make the top and bottom of the page consistent.
+screenshot summary
+2 views
+
+  * section - education
+     * The details of the academic journey, including institutions attended, what degrees earned, and relevant coursework.
+
+ screenshot education
+ 2 views
+
+  * section - Work Experience
+      * Chronological resentpretaton of the work history .
+
+screen workexperience
+2 views
+
+  * section - My Strenghts
+      * To include emphatic socail capacaticy is a must-have element in the CV, to give the more granual appeal, this section is devide to 3 boxes on top of each other, from left to right.
+      * In smaller view those boxes are stacked on top of each other.
   
-      ![Alt text](wireframes/socails.png)
 
-## Testing
-* All the most conventional browsers were tested: Chrome, Opera, Firefox, Safari.
-* This project is responsive, looks good on all known devices like smartphone, tablets and laptops.
-* The navigation, header and contact text are all readable and easy to understand.
-* The form contact section works in every field and only accept email in the email field and the submit button works.
+screenshot strenghts 
+2 views  
+
+   * section - Competenties
+      * The masive use of font-aseome to exploiet to its full potential to give a quick and overseable table of the compententies
+      * note: on smaller devices the table do not macht the complete witd of the screen therefor is a scroll overflow build to see the content more from the left or the right.
   
-# Bugs
-* When deploying the project a bug was discovered but it had no impact on the functionality of the webpage!
-
-   ![Alt text](wireframes/bug.png)
-
-  
-## Validator Testing
-* HTML
-  *  No errors were returned when passing through the official [W3C validator]
-* CSS
-  * No errors were found when passing through the official [(Jigsaw) validator]
+screenshot competenties
+2 VIEUWs
 
 
+   * section - certificates
+     * An additional overview of specific related job qualifaction can be in handy 
+     * Also relevant achivements are important to reflect
 
-* Accessibilty
-  * I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+screenshot certifcates
+2 views
+
+   * section - languages
+     * again the use of fontaseome is a easy way to show your laugages skills
+
+screenshot languages
+2 views
+
+   * section - contact
+     * To leave information behind for a potential requiter is interesting, in this from you can fill in , name, email and comment
+     * This section is also fully tested and sends a confirmation back
+
+screenshot contact
+2 views
+   
+## Footer
+   * socails
+     * All the 5 biggest internet socails platform are represented in this part.
+
+screenshot socails
+2 views
 
 
+# Technologies 
 
-## Unfixed Bugs
-* No issues whit bugs.
+## Languages
+   * HTML
+   * CSS
+
+## Libraries & Frameworks
+   * Google fonts
+   * Font Awesome Lib
+ 
+## Tools
+
+- [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+- [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+- [Colorcombos](https://www.colorcombos.com "colorcombos")
+- [CSS Scan](https://getcssscan.com/css-box-shadow-examples "getcssscan.com")
+- [Squoosh](https://squoosh.app/ "squoosh.app")
+
+[Back to Top](#table-of-contents)
+
+# Testing
+
+- The website has met the objectives set by all parties involved. It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. Users can easily navigate and contact us through the contact form or social media. The content is concise, and the design is uncluttered, providing a user-friendly experience.
+
+- While testing I didn't encounter any errors with the final project.
+- HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
+- CSS validator [results](wireframes/css-validate.jpg "W3C CSS")
+
+- The final project was tested using Google's Lighthouse on github pages. The results are below
+- Performance test for Mobile:
+
+![Performance test for mobile](wireframes/mobile-performance.jpg)
+
+- Performance test for Desktop:
+
+![Performance test for mobile](wireframes/desktop-performance.jpg)
+
+- When testing on Google Chrome mobile version I didn't like the default browser theme color so I've customized the browser's theme color to match the website's theme, ensuring that everything looks just the way I prefer it.
+
+```
+<meta name="theme-color" content="#121A18">
+```
+
+- Using Mobile Simulator extension in Google Chrome I have tested the website on differite devices. Test results are listed below.
+
+| Device                |     Test 1     |       Test 2 | Result Test 1 | Result Test 2 |
+| --------------------- | :------------: | -----------: | ------------- | ------------- |
+| Samsung Galaxy S20    | Responsiveness |  Attractions | Passed        | Passed        |
+| Samsung Galaxy S21 FE | Responsiveness |  Menu Button | Passed        | Passed        |
+| iPad Air 4            | Responsiveness |         Menu | Passed        | Passed        |
+| Galaxy Tab S7         | Responsiveness |         Menu | Passed        | Passed        |
+| iPhone 5              | Responsiveness |  Menu Button | Passed        | Passed        |
+| iPhone X              | Responsiveness |      History | Passed        | Passed        |
+| iPhone 11             | Responsiveness |      Cuisine | Passed        | Passed        |
+| iPhone 12 Mini        | Responsiveness | Contact Form | Passed        | Passed        |
+| iPhone 13 PRO         | Responsiveness |  Menu Button | Passed        | Passed        |
+| Mackbook Air          | Responsiveness |         Menu | Passed        | Passed        |
+| Desktop               | Responsiveness |    Thank You | Passed        | Passed        |
+| Dell Latitude         | Responsiveness |         Menu | Passed        | Passed        |
+
+## Bugs
+
+- There are no bugs to fix in the final project
+
+[Back to Top](#table-of-contents)
 
 # Deployment
-* This site is depolyed on GitHub pages.
-  * In the correct GitHub repository, navigate to the Settings tab.
-  * From the source selection take drop-down menu, select the Master Branch.
-  * Once the master branch has been selected, the page provided the link to the completed website.
-  
-There is an active live link here: https://harmonica-men.github.io/web-CV/
+
+After writing the code, committing, and pushing it to GitHub, the project was deployed using GitHub by following these steps:
+
+- Go to the repository on GitHub and click on **Settings**
+
+- In the side navigation, select **Pages**
+
+- In the **None** dropdown, choose **main**
+
+- Click the **Save** button.
+
+- The website is now live at `https://USERNAME.github.io/explore-romania/`
+
+- If any changes are needed, you can make them, commit, and push to GitHub, and the updates will be reflected on the website.
+
+[Back to Top](#table-of-contents)
+
 
 # Credits
 
-## Content
-   * The inspiration for the design and concept of the web-CV have retained from the appbrewery (online learning platform) whit Angela Yu.
+For images and content inspiration:
 
-## Media
-   * All media used on this site were free and open source.
+ - angela Yu  Appbrewery  CV concepte
+ - pexels 
 
+
+
+Images credits
+- hamburger menu https://alvarotrigo.com/blog/hamburger-menu-css/
+
+- [pixabay.com](https://pixabay.com "pixabay.com")
+
+[Back to Top](#table-of-contents)
