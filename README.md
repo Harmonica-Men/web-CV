@@ -1,6 +1,7 @@
 # The 'Web CV'
-
+![Alt text](wireframes/web-cv-responsiveness.png)
 # UX
+
 
 ## Site owners Goals - 'WEB-CV Or 'Paper-CV'?
 
@@ -76,7 +77,7 @@ By fulfilling these bith criteria's, I aim to create a compelling and profession
 I used a combination of classic and modern fonts to diversify myself, I've integrated [Google Fonts](https://fonts.google.com/ "Google Fonts") to find a typeface that complements the website's aesthetic. For the main text, I've opted for [Merriweather](https://fonts.google.com/specimen/Merriweather?query=mon "Merriweather font") due to its classic appearance. Its make it easy to read long sentences.
 [Sacramento](https://fonts.google.com/specimen/Sacramento?query=mon "Sacramento font") I used for a eye catcher element in landing page, because it is a fuilid style it stands out of rest of the fonts and draws the attention to the reader.
 To make headings stand out, I've applied with a "sans-serif" fallback.
-The other fonts are more modern style and are typical used for headers and titles indicators [Poppins](https://fonts.google.com/specimen/Poppins?query=mon "Poppins font") & [Raleway](https://fonts.google.com/specimen/Raleway?query=mon "Raleway font") 
+The other fonts are more modern style and are typical used for headers and titles indicators [Poppins](https://fonts.google.com/specimen/Poppins?query=mon "Poppins font")
 
 ### Icons
 
@@ -89,6 +90,7 @@ As for colors I decided to use Color-Hunt. https://colorhunt.co
 I will explain the uses of the various colors below, starting from top to bottom.
 
 ![Alt text](assets/wireframes/color-hunt.png) 
+
 * #2E6284 : This is the main background color.
 * #133A54 : This is the border color.
 * #749BC2 : This is the accent color.
@@ -100,7 +102,6 @@ I will explain the uses of the various colors below, starting from top to bottom
 A center-style CV refers to a resume or curriculum vitae (CV for short) in which the content is aligned at the center of the page rather than the more traditional left-aligned format. This design choice can create a visually distinctive and modern look.
 
 The Web-CV is espcailly trageting for mobile-first devices, because the center style is focusing on creating a visually appealing design for smaller screens.  
-
 
 # Wireframes
 
@@ -115,13 +116,6 @@ The wireframes are below:
 ### [Phone Wireframe](assets/wireframes/layout-smart.png "Phone wireframe")
 
 
-[Back to Top](#table-of-contents)
-
-
-&nbsp;
-[Back to Top]
-&nbsp;
-
 # Features
 
 ## Navigation Bar 
@@ -129,21 +123,20 @@ The wireframes are below:
 The responsive navigation bar remains fixed at the top, offering users effortless navigation throughout the website and ensuring an enhanced user experience.
    *  Desktop view > 768px
 
-screenshot navbar desktop
-
-
+![Alt text](wireframes/navbar-desktop.png)
    * The utilization of a red hover effect serves to visually emphasize active, clicked, and hovered links, providing users with clear visual cues for their interactions with these elements.
 
-screenshot navbar desktop hover  
+ ![Alt text](wireframes/navbar-desktop-hover.png)
 
    * small devices < = 768px
    * When the screen width hits 768 pixels or less, the navigation bar switches to a hamburger-style menu, ensuring responsiveness across various devices.
 
-screenshot gsm
+![Alt text](wireframes/respon-smartphone.png)
 
    * When pressed, it opens the main menu with all available links.
 
-screenshot gsm hover
+![Alt text](wireframes/respon-smartphone-hover.png)
+
    * The code for the Hamburger Menu I used from
    * I has nice feature build in where burger seamlessly transition in to a cross element.
 
@@ -151,105 +144,103 @@ screenshot gsm hover
    * Header - Landing Page
       * Because this is a 'web-CV' the QR code is a direct eyecatcher and gives an innovative idea to life whit a direct link to my personal website.
       * The color scheme consists of four colors and two additional colors for underling and highlighting. To make the colors match the criteria of Lighthouse some tweaking was necessary.
-  
-screenshot header qr-code
+    
+![Alt text](wireframes/desktop-landingpage.png)
+
  
    * Section - Personalia
      * You have only one shot to make a good impression, so saying "Hello" to somebody is natural and convenient, the black and white picture comes in a better contrast with the rest of the color scheme.
      * To diversify myself I included a quote of Linus Trovals.
      * For most requiters to have immediately access to contact information is crucial.
-
-screenshot personalia
-
-3 views
-
-  * Section - My Strenghts
+   
+![smartphone person](wireframes/respon-smartphone-personalia.png)
+![tablet person](wireframes/respon-tablet-personalia.png)
+![desktop person](wireframes/respon-desktop-personalia.png)
+  * Section -Summary
      * A first approach for demonstration of responsiveness, the hole webpage is built from the middle of the screen and is evenly distributed except for the 'navbar' to give a more relax user experience where a lot reading needed. 
      * The division of three blocks from left to right that give more dynamic into the webpage.
 
-screenshot strenghts
-2 views
-
-  * section - Summary 
-     * Here is a small biography of the sollicitant, gives a general impression.
-
-screenshot summary
-2 views
+![smartphone person](wireframes/respon-smartphone-summary.png)
+![tablet person](wireframes/respon-tablet-summary.png)
+![desktop person](wireframes/respon-desktop-summary.png)
 
   * section - education
      * The details of the academic journey, including institutions attended, what degrees earned, and relevant coursework.
-
- screenshot education
- 2 views
+   
+![smartphone edu](wireframes/respon-smartphone-edu.png)
+![tablet edu](wireframes/respon-tablet-edu.png)
+![desktop edu](wireframes/respon-desktop-edu.png)
 
   * section - Work Experience
       * Chronological resentpretaton of the work history .
 
-screen workexperience
-2 views
+![smartphone work](wireframes/respon-smartphone-work.png)
+![tablet work](wireframes/respon-tablet-work.png)
+![desktop work](wireframes/respon-desktop-work.png)
 
   * section - My Strenghts
       * To include emphatic socail capacaticy is a must-have element in the CV, to give the more granual appeal, this section is devide to 3 boxes on top of each other, from left to right.
       * In smaller view those boxes are stacked on top of each other.
-  
 
-screenshot strenghts 
-2 views  
+![smartphone streng](wireframes/respon-smartphone-streng.png)
+![tablet streng](wireframes/respon-tablet-streng.png)
+![desktop streng](wireframes/respon-desktop-streng.png)
+
 
    * section - Competenties
       * The masive use of font-aseome to exploiet to its full potential to give a quick and overseable table of the compententies
       * note: on smaller devices the table do not macht the complete witd of the screen therefor is a scroll overflow build to see the content more from the left or the right.
   
-screenshot competenties
-2 VIEUWs
-
-
+![smartphone comp](wireframes/respon-smartphone-comp.png)
+![tablet comp](wireframes/respon-tablet-comp.png)
+![desktop comp](wireframes/respon-desktop-comp.png)
    * section - certificates
      * An additional overview of specific related job qualifaction can be in handy 
      * Also relevant achivements are important to reflect
 
-screenshot certifcates
-2 views
+![smartphone cert](wireframes/respon-smartphone-cert.png)
+![tablet cert](wireframes/respon-tablet-cert.png)
+![desktop cert](wireframes/respon-desktop-cert.png)
 
    * section - languages
      * again the use of fontaseome is a easy way to show your laugages skills
-
-screenshot languages
-2 views
+   
+![smartphone lang](wireframes/respon-smartphone-lang.png)
+![tablet lang](wireframes/respon-tablet-lang.png)
+![desktop lang](wireframes/respon-desktop-lang.png)
 
    * section - contact
      * To leave information behind for a potential requiter is interesting, in this from you can fill in , name, email and comment
      * This section is also fully tested and sends a confirmation back
 
-screenshot contact
-2 views
-   
+![smartphone contact](wireframes/respon-smartphone-contact.png)   
+![tablet contact](wireframes/respon-tablet-contact.png)  
+![desktop contact](wireframes/respon-desktop-contact.png)  
 ## Footer
    * socails
      * All the 5 biggest internet socails platform are represented in this part.
-
-screenshot socails
-2 views
+     * 
+![smartphone footer](wireframes/respon-smartphone-footer.png)
+![tablet footer](wireframes/respon-tablet-footer.png)
+![desktop footer](wireframes/respon-desktop-footer.png)
 
 
 # Technologies 
 
 ## Languages
-   * HTML
-   * CSS
+   * [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+   * [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
 
 ## Libraries & Frameworks
-   * Google fonts
-   * Font Awesome Lib
+   * [Google Fonts](https://fonts.google.com/ "Google Fonts Libary")
+   * [Font Awesome](https://fontawesome.com// "Font Awesome Libary")
  
 ## Tools
-
 - [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-- [Colorcombos](https://www.colorcombos.com "colorcombos")
 - [CSS Scan](https://getcssscan.com/css-box-shadow-examples "getcssscan.com")
-- [Squoosh](https://squoosh.app/ "squoosh.app")
+- [ColorHunt](https://colorhunt.co/ "colorhunt")
 
 [Back to Top](#table-of-contents)
 
@@ -258,46 +249,26 @@ screenshot socails
 - The website has met the objectives set by all parties involved. It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. Users can easily navigate and contact us through the contact form or social media. The content is concise, and the design is uncluttered, providing a user-friendly experience.
 
 - While testing I didn't encounter any errors with the final project.
-- HTML (index.html) validator [results](wireframes/html-validate.jpg "W3C HTML")
-- CSS validator [results](wireframes/css-validate.jpg "W3C CSS")
+- HTML (index.html) validator [results](wireframes/W3C_validation_HTML.png "W3C HTML")
+- CSS validator [results](wireframes/W3C_validation_CSS.png)
+
 
 - The final project was tested using Google's Lighthouse on github pages. The results are below
-- Performance test for Mobile:
+
+ Performance test for Mobile:
 
 ![Performance test for mobile](wireframes/mobile-performance.jpg)
 
-- Performance test for Desktop:
 
-![Performance test for mobile](wireframes/desktop-performance.jpg)
 
-- When testing on Google Chrome mobile version I didn't like the default browser theme color so I've customized the browser's theme color to match the website's theme, ensuring that everything looks just the way I prefer it.
+Performance test for Desktop:
 
-```
-<meta name="theme-color" content="#121A18">
-```
+![Performance test for Desktop](wireframes/desktop-performance.jpg)
 
-- Using Mobile Simulator extension in Google Chrome I have tested the website on differite devices. Test results are listed below.
-
-| Device                |     Test 1     |       Test 2 | Result Test 1 | Result Test 2 |
-| --------------------- | :------------: | -----------: | ------------- | ------------- |
-| Samsung Galaxy S20    | Responsiveness |  Attractions | Passed        | Passed        |
-| Samsung Galaxy S21 FE | Responsiveness |  Menu Button | Passed        | Passed        |
-| iPad Air 4            | Responsiveness |         Menu | Passed        | Passed        |
-| Galaxy Tab S7         | Responsiveness |         Menu | Passed        | Passed        |
-| iPhone 5              | Responsiveness |  Menu Button | Passed        | Passed        |
-| iPhone X              | Responsiveness |      History | Passed        | Passed        |
-| iPhone 11             | Responsiveness |      Cuisine | Passed        | Passed        |
-| iPhone 12 Mini        | Responsiveness | Contact Form | Passed        | Passed        |
-| iPhone 13 PRO         | Responsiveness |  Menu Button | Passed        | Passed        |
-| Mackbook Air          | Responsiveness |         Menu | Passed        | Passed        |
-| Desktop               | Responsiveness |    Thank You | Passed        | Passed        |
-| Dell Latitude         | Responsiveness |         Menu | Passed        | Passed        |
 
 ## Bugs
 
 - There are no bugs to fix in the final project
-
-[Back to Top](#table-of-contents)
 
 # Deployment
 
@@ -311,7 +282,7 @@ After writing the code, committing, and pushing it to GitHub, the project was de
 
 - Click the **Save** button.
 
-- The website is now live at `https://USERNAME.github.io/explore-romania/`
+- The website is now live at (https://harmonica-men.github.io/web-CV/)`
 
 - If any changes are needed, you can make them, commit, and push to GitHub, and the updates will be reflected on the website.
 
@@ -322,14 +293,6 @@ After writing the code, committing, and pushing it to GitHub, the project was de
 
 For images and content inspiration:
 
- - angela Yu  Appbrewery  CV concepte
- - pexels 
-
-
-
-Images credits
-- hamburger menu https://alvarotrigo.com/blog/hamburger-menu-css/
-
-- [pixabay.com](https://pixabay.com "pixabay.com")
-
-[Back to Top](#table-of-contents)
+- Ângela Yu -- Appbrewery -- CV concept layout
+- [Pexels](https://pexels.com "Pexel")
+- [hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/ "hamburger menu")
