@@ -2,7 +2,6 @@
 ![Alt text](wireframes/web-cv-responsiveness.png)
 # UX
 
-
 ## Site owners Goals - 'WEB-CV Or 'Paper-CV'?
 
 ### Web-based CV
@@ -39,11 +38,10 @@
   4. The candidate's professional summary or objective should be prominently displayed to provide a quick overview of their career goals.
   5. Each section of the web CV should offer concise and informative content, including job titles, dates, and key achievements in a clear and structured format.
   6. The web CV should be mobile-friendly, ensuring I can access and review it seamlessly on various devices.
-  7. I expect the platform to provide basic analytics, such as the number of views and interactions with the candidate's web CV, to help gauge the candidate's online presence.
-  8. The web CV platform should prioritize security and privacy, ensuring that sensitive candidate information is protected.
-  9. The user interface should be intuitive, enabling me to quickly assess a candidate's qualifications and skills without unnecessary complexity.
-  10. I want the option to easily contact the candidate directly through the web CV platform or save their contact details for future communication.
-  11. The platform should allow me to provide feedback or comments on specific sections of the web CV to facilitate communication with other team members.
+  7. The web CV platform should prioritize security and privacy, ensuring that sensitive candidate information is protected.
+  8. The user interface should be intuitive, enabling me to quickly assess a candidate's qualifications and skills without unnecessary complexity.
+  9. I want the option to easily contact the candidate directly through the web CV platform or save their contact details for future communication.
+  10. The platform should allow me to provide feedback or comments on specific sections of the web CV to facilitate communication with other team members.
 
 By meeting these criteria, the web CV platform will enhance the efficiency of my candidate evaluation process, ultimately leading to more informed hiring decisions.
 
@@ -55,19 +53,13 @@ By meeting these criteria, the web CV platform will enhance the efficiency of my
   2. I want the ability to input and update my personal information, including my name, contact details, and a professional profile picture.
   3. I need to be able to add multiple sections to my CV, such as Education, Work Experience, Skills, Projects, and Certifications.
   4. Each section should allow me to enter relevant details, such as job titles, dates, descriptions, and key achievements.
-  5. The web CV should provide customizable templates or themes that allow me to choose a design that best represents my personal brand and professional style.
-  6. I should be able to upload and showcase documents, such as my resume and portfolio, to provide additional context and detail.
-  7. The platform should have an option to preview my CV before making it public to ensure it looks polished and professional.
-  8. I want the ability to share a unique URL or QR code that directs employers to my web CV easily.
-  9. The web CV should be mobile-friendly, ensuring that potential employers can access and view it seamlessly on various devices.
-  10. As a user, I want the option to export my web CV as a PDF for offline sharing and printing purposes.
-  11. The platform should include basic analytics, such as the number of views and interactions with my CV, to help me gauge its effectiveness.
-  12. I expect the web CV platform to prioritize security and privacy, ensuring that my personal information is protected.
-
+  5. I should be able to upload and showcase documents, such as my resume and portfolio, to provide additional context and detail.
+  7. I want the ability to share a unique URL or QR code that directs employers to my web CV easily.
+  8. The web CV should be mobile-friendly, ensuring that potential employers can access and view it seamlessly on various devices.  
+  
 The user interface should be intuitive and user-friendly, allowing me to navigate and update my web CV with ease.
 
-By fulfilling these bith criteria's, I aim to create a compelling and professional online presence that enhances my chances of securing job opportunities."
-
+By fulfilling these criteria, I aim to create a compelling and professional online presence that enhances my chances of securing job opportunities."
 # Design
 
 ## Design Choices
@@ -115,7 +107,6 @@ The wireframes are below:
 
 ### [Phone Wireframe](assets/wireframes/layout-smart.png "Phone wireframe")
 
-
 # Features
 
 ## Navigation Bar 
@@ -146,19 +137,16 @@ The responsive navigation bar remains fixed at the top, offering users effortles
       * The color scheme consists of four colors and two additional colors for underling and highlighting. To make the colors match the criteria of Lighthouse some tweaking was necessary.
     
 ![Alt text](wireframes/desktop-landingpage.png)
+   * Section - Personal Data
+     * You have only one shot to make a good impression, so saying "Hello" to somebody is natural and convenient. The black and white picture creates a better contrast with the rest of the color scheme.
+     * To diversify myself, I included a quote from Linus Torvalds.
+     * For most recruiters, immediate access to contact information is crucial.
 
- 
-   * Section - Personalia
-     * You have only one shot to make a good impression, so saying "Hello" to somebody is natural and convenient, the black and white picture comes in a better contrast with the rest of the color scheme.
-     * To diversify myself I included a quote of Linus Trovals.
-     * For most requiters to have immediately access to contact information is crucial.
-   
 ![smartphone person](wireframes/respon-smartphone-personalia.png)
 ![tablet person](wireframes/respon-tablet-personalia.png)
 ![desktop person](wireframes/respon-desktop-personalia.png)
   * Section -Summary
-     * A first approach for demonstration of responsiveness, the hole webpage is built from the middle of the screen and is evenly distributed except for the 'navbar' to give a more relax user experience where a lot reading needed. 
-     * The division of three blocks from left to right that give more dynamic into the webpage.
+     * A quick overview of your carriere so far and a give a general idea of the person capabilities.
 
 ![smartphone person](wireframes/respon-smartphone-summary.png)
 ![tablet person](wireframes/respon-tablet-summary.png)
@@ -213,9 +201,9 @@ The responsive navigation bar remains fixed at the top, offering users effortles
      * To leave information behind for a potential requiter is interesting, in this from you can fill in , name, email and comment
      * This section is also fully tested and sends a confirmation back
 
-![smartphone contact](wireframes/respon-smartphone-contact.png)   
-![tablet contact](wireframes/respon-tablet-contact.png)  
-![desktop contact](wireframes/respon-desktop-contact.png)  
+![smartphone contact](wireframes/respon-smartphone-footer.png)   
+![tablet contact](wireframes/respon-tablet-footer.png)  
+![desktop contact](wireframes/respon-desktop-footer.png)  
 ## Footer
    * socails
      * All the 5 biggest internet socails platform are represented in this part.
@@ -293,6 +281,7 @@ After writing the code, committing, and pushing it to GitHub, the project was de
 
 For images and content inspiration:
 
-- Ângela Yu -- Appbrewery -- CV concept layout
+- [Angel Yu -- App Brewery](https://appbrewery.com/ "AppBrewery")
 - [Pexels](https://pexels.com "Pexel")
 - [hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/ "hamburger menu")
+
