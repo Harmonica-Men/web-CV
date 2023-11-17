@@ -5,28 +5,30 @@
 ## Site owners Goals - 'WEB-CV Or 'Paper-CV'?
 
 ### Web-based CV
-* Pros
-   - **Accessibility:** Can be viewed from anywhere with an internet connection.
-   - **Interactivity:** Allows for multimedia elements and dynamic updates.
-  - **Analytics:** Offers insights into CV views.
-  - **Cost-effective:** No printing or postage expenses.  
-* Cons
-   - **Technical Issues:** Relies on internet connectivity.
-   - **Security Concerns:** Potential susceptibility to breaches.
-   - **Compatibility:** May face formatting issues on different devices.
-   - **Digital Literacy:** Some employers may prefer traditional methods.
-### Paper-based CV
-* Pros
-   - **Tangible Presence:** Creates a physical impression.
-   - **Universal Acceptance:** Widely accepted across industries.
-   - **Consistency:** Format remains constant without technical glitches.
-   - **Traditional Preference:** Preferred in certain industries.
 
+* Pros
+   **Accessibility:** Can be viewed from anywhere with an internet connection.
+   **Interactivity:** Allows for multimedia elements and dynamic updates.
+   **Analytics:** Offers insights into CV views.
+   **Cost-effective:** No printing or postage expenses.  
 * Cons
-   - **Limited Accessibility:** Less accessible for remote recruitment.
-   - **Update Challenges:** Requires reprinting for updates.
-   - **Environmental Impact:** Contributes to paper waste.
-   - **Lack of Interactivity:** Cannot include multimedia elements.
+   **Technical Issues:** Relies on internet connectivity.
+   **Security Concerns:** Potential susceptibility to breaches.
+   **Compatibility:** May face formatting issues on different devices.
+   **Digital Literacy:** Some employers may prefer traditional methods.
+
+### Paper-based CV
+
+* Pros
+   **Tangible Presence:** Creates a physical impression.
+   **Universal Acceptance:** Widely accepted across industries.
+   **Consistency:** Format remains constant without technical glitches.
+   **Traditional Preference:** Preferred in certain industries.
+* Cons
+   **Limited Accessibility:** Less accessible for remote recruitment.
+   **Update Challenges:** Requires reprinting for updates.
+   **Environmental Impact:** Contributes to paper waste.
+   **Lack of Interactivity:** Cannot include multimedia elements.
 
 ## User Story - As a Recruiter
  I want to efficiently evaluate candidates by accessing their web-based CVs, allowing me to quickly assess their qualifications, skills, and professional experience. This will streamline the hiring process and enable me to make well-informed decisions.
@@ -136,7 +138,7 @@ The responsive navigation bar remains fixed at the top, offering users effortles
       * Because this is a 'web-CV' the QR code is a direct eyecatcher and gives an innovative idea to life whit a direct link to my personal website.
       * The color scheme consists of four colors and two additional colors for underling and highlighting. To make the colors match the criteria of Lighthouse some tweaking was necessary.
     
-![Alt text](wireframes/desktop-landingpage.png)
+![landing page](wireframes/desktop-landingpage.png)
    * Section - Personal Data
      * You have only one shot to make a good impression, so saying "Hello" to somebody is natural and convenient. The black and white picture creates a better contrast with the rest of the color scheme.
      * To diversify myself, I included a quote from Linus Torvalds.
@@ -207,7 +209,7 @@ The responsive navigation bar remains fixed at the top, offering users effortles
 ## Footer
    * socails
      * All the 5 biggest internet socails platform are represented in this part.
-     * 
+  
 ![smartphone footer](wireframes/respon-smartphone-footer.png)
 ![tablet footer](wireframes/respon-tablet-footer.png)
 ![desktop footer](wireframes/respon-desktop-footer.png)
@@ -230,47 +232,42 @@ The responsive navigation bar remains fixed at the top, offering users effortles
 - [CSS Scan](https://getcssscan.com/css-box-shadow-examples "getcssscan.com")
 - [ColorHunt](https://colorhunt.co/ "colorhunt")
 
-[Back to Top](#table-of-contents)
-
 # Testing
 
-- The website has met the objectives set by all parties involved. It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. Users can easily navigate and contact us through the contact form or social media. The content is concise, and the design is uncluttered, providing a user-friendly experience.
+* The website has met the objectives set by all parties involved. It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. Users can easily navigate and contact us through the contact form or social media. The content is concise, and the design is uncluttered, providing a user-friendly experience.
 
-- While testing I didn't encounter any errors with the final project.
-- HTML (index.html) validator [results](wireframes/W3C_validation_HTML.png "W3C HTML")
-- CSS validator [results](wireframes/W3C_validation_CSS.png)
+* While testing I didn't encounter any errors with the final project.
+* HTML (index.html) validator [results](wireframes/W3C_validation_HTML.png "W3C HTML")
+* CSS validator [results](wireframes/W3C_validation_CSS.png)
 
 
-- The final project was tested using Google's Lighthouse on github pages. The results are below
+* The final project was tested using Google's Lighthouse on github pages. The results are below
 
  Performance test for Mobile:
 
 ![Performance test for mobile](wireframes/mobile-performance.jpg)
 
-
-
 Performance test for Desktop:
 
 ![Performance test for Desktop](wireframes/desktop-performance.jpg)
 
-
 ## Bugs
 
-- There are no bugs to fix in the final project
+* There are no bugs to fix in the final project
 
 # Deployment
 
 After writing the code, committing, and pushing it to GitHub, the project was deployed using GitHub by following these steps:
 
-- Go to the repository on GitHub and click on **Settings**
+* Go to the repository on GitHub and click on **Settings**
 
-- In the side navigation, select **Pages**
+* In the side navigation, select **Pages**
 
-- In the **None** dropdown, choose **main**
+* In the **None** dropdown, choose **main**
 
-- Click the **Save** button.
+* Click the **Save** button.
 
-- The website is now live at (https://harmonica-men.github.io/web-CV/)`
+* The website is now live at (https://harmonica-men.github.io/web-CV/)`
 
 - If any changes are needed, you can make them, commit, and push to GitHub, and the updates will be reflected on the website.
 
@@ -281,7 +278,7 @@ After writing the code, committing, and pushing it to GitHub, the project was de
 
 For images and content inspiration:
 
-- [Angel Yu -- App Brewery](https://appbrewery.com/ "AppBrewery")
-- [Pexels](https://pexels.com "Pexel")
-- [hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/ "hamburger menu")
+* [Angel Yu -- App Brewery](https://appbrewery.com/ "AppBrewery")
+* [Pexels](https://pexels.com "Pexel")
+* [hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/ "hamburger menu")
 
