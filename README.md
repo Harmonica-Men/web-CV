@@ -116,29 +116,32 @@ The wireframes are below:
 The responsive navigation bar remains fixed at the top, offering users effortless navigation throughout the website and ensuring an enhanced user experience.
    *  Desktop view > 768px
 
-![Alt text](wireframes/navbar-desktop.png)
+![navbar desktop](wireframes/navbar-desktop.png)
+
    * The utilization of a red hover effect serves to visually emphasize active, clicked, and hovered links, providing users with clear visual cues for their interactions with these elements.
 
- ![Alt text](wireframes/navbar-desktop-hover.png)
+ ![navbar desktop hover](wireframes/navbar-desktop-hover.png)
 
    * small devices < = 768px
    * When the screen width hits 768 pixels or less, the navigation bar switches to a hamburger-style menu, ensuring responsiveness across various devices.
 
-![Alt text](wireframes/respon-smartphone.png)
+![respon smartphone](wireframes/respon-smartphone.png)
 
    * When pressed, it opens the main menu with all available links.
 
-![Alt text](wireframes/respon-smartphone-hover.png)
+![smartphone hover](wireframes/respon-smartphone-hover.png)
 
    * The code for the Hamburger Menu I used from
    * I has nice feature build in where burger seamlessly transition in to a cross element.
 
 ## Landing Page
+   
    * Header - Landing Page
       * Because this is a 'web-CV' the QR code is a direct eyecatcher and gives an innovative idea to life whit a direct link to my personal website.
       * The color scheme consists of four colors and two additional colors for underling and highlighting. To make the colors match the criteria of Lighthouse some tweaking was necessary.
     
 ![landing page](wireframes/desktop-landingpage.png)
+  
    * Section - Personal Data
      * You have only one shot to make a good impression, so saying "Hello" to somebody is natural and convenient. The black and white picture creates a better contrast with the rest of the color scheme.
      * To diversify myself, I included a quote from Linus Torvalds.
@@ -147,6 +150,7 @@ The responsive navigation bar remains fixed at the top, offering users effortles
 ![smartphone person](wireframes/respon-smartphone-personalia.png)
 ![tablet person](wireframes/respon-tablet-personalia.png)
 ![desktop person](wireframes/respon-desktop-personalia.png)
+ 
   * Section -Summary
      * A quick overview of your carriere so far and a give a general idea of the person capabilities.
 
@@ -176,7 +180,6 @@ The responsive navigation bar remains fixed at the top, offering users effortles
 ![tablet streng](wireframes/respon-tablet-streng.png)
 ![desktop streng](wireframes/respon-desktop-streng.png)
 
-
    * section - Competenties
       * The masive use of font-aseome to exploiet to its full potential to give a quick and overseable table of the compententies
       * note: on smaller devices the table do not macht the complete witd of the screen therefor is a scroll overflow build to see the content more from the left or the right.
@@ -184,6 +187,7 @@ The responsive navigation bar remains fixed at the top, offering users effortles
 ![smartphone comp](wireframes/respon-smartphone-comp.png)
 ![tablet comp](wireframes/respon-tablet-comp.png)
 ![desktop comp](wireframes/respon-desktop-comp.png)
+
    * section - certificates
      * An additional overview of specific related job qualifaction can be in handy 
      * Also relevant achivements are important to reflect
@@ -214,7 +218,6 @@ The responsive navigation bar remains fixed at the top, offering users effortles
 ![tablet footer](wireframes/respon-tablet-footer.png)
 ![desktop footer](wireframes/respon-desktop-footer.png)
 
-
 # Technologies 
 
 ## Languages
@@ -226,11 +229,11 @@ The responsive navigation bar remains fixed at the top, offering users effortles
    * [Font Awesome](https://fontawesome.com// "Font Awesome Libary")
  
 ## Tools
-- [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
-- [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-- [CSS Scan](https://getcssscan.com/css-box-shadow-examples "getcssscan.com")
-- [ColorHunt](https://colorhunt.co/ "colorhunt")
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [CSS Scan](https://getcssscan.com/css-box-shadow-examples "getcssscan.com")
+* [ColorHunt](https://colorhunt.co/ "colorhunt")
 
 # Testing
 
@@ -239,7 +242,6 @@ The responsive navigation bar remains fixed at the top, offering users effortles
 * While testing I didn't encounter any errors with the final project.
 * HTML (index.html) validator [results](wireframes/W3C_validation_HTML.png "W3C HTML")
 * CSS validator [results](wireframes/W3C_validation_CSS.png)
-
 
 * The final project was tested using Google's Lighthouse on github pages. The results are below
 
@@ -251,6 +253,12 @@ Performance test for Desktop:
 
 ![Performance test for Desktop](wireframes/desktop-performance.jpg)
 
+* I confirm that the contact form meets the validation criteria.
+  
+* The code for the naviagtion of the hamburger menu come from 'fullPage.js' in this example there no use of JaveScript, there nice build in featues as silding window or menu bar line how transform into 'X' element.
+  
+* 'Back To Top' button is a feature to jumps the user back to the top of the page.
+  
 ## Bugs
 
 * There are no bugs to fix in the final project
@@ -269,16 +277,15 @@ After writing the code, committing, and pushing it to GitHub, the project was de
 
 * The website is now live at (https://harmonica-men.github.io/web-CV/)`
 
-- If any changes are needed, you can make them, commit, and push to GitHub, and the updates will be reflected on the website.
-
-[Back to Top](#table-of-contents)
+* If any changes are needed, you can make them, commit, and push to GitHub, and the updates will be reflected on the website.
 
 
 # Credits
 
 For images and content inspiration:
 
-* [Angel Yu -- App Brewery](https://appbrewery.com/ "AppBrewery")
-* [Pexels](https://pexels.com "Pexel")
-* [hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/ "hamburger menu")
+* [Angel Yu -- App Brewery](https://appbrewery.com/ 
+  "AppBrewery") Concept design 
+* [Pexels](https://pexels.com "Pexel") Background image
+* [hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/ "hamburger menu") Style Navigation menu
 
