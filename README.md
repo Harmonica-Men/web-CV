@@ -260,6 +260,8 @@ Performance test for Desktop:
   
 * 'Back To Top' button is a feature to jumps the user back to the top of the page.
   
+* The background image is chosen to give a nice contrast with the font color scheme.
+  
 ## Bugs
 
 * There are no bugs to fix in the final project
