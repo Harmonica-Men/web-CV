@@ -3,6 +3,7 @@
 # UX
 
 ## Site owners Goals - 'WEB-CV Or 'Paper-CV'?
+   * We live in a digital age there having a Web-CV is the 'new' normal this project is to demonstrate the capabilities of a programmer and to facilitate.
 
 ### Web-based CV
 
